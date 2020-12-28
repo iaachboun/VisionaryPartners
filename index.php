@@ -1,56 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="img/favicon.png" type="image/png">
-    <title>Favison SAAS</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/animate-css/animate.css">
-    <!-- main css -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
-
-    <!--================Header Menu Area =================-->
-    <header class="header_area">	
-        <div class="main_menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="index.php"><img src="img/logo/siteLogo_white.svg" alt=""></a>
-
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="feature.php">Features</a></li>
-                            <li class="nav-item"><a class="nav-link" href="price.php">Price</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="right-button">
-                        <ul>
-                            <li class="shop-icon"><a href="#"><i class="ti-shopping-cart-full"></i><span>0</span></a></li>
-                            <li><a class="sign_up" href="">Sign Up</a></li>
-                        </ul>
-                    </div> 
-                </div>
-            </nav>
-        </div>
-    </header>
-    <!--================Header Menu Area =================-->
+<?php
+require_once __DIR__ . '/header.php'
+?>
 
     <!--================Home Banner Area =================-->
     <section class="home_banner_area">
@@ -60,9 +10,9 @@
                 <div class="row">
                     <div class="col-lg-6 offset-lg-6 col-xl-5 offset-xl-7">
                         <div class="banner_content">
-                            <h3>Build a better<br/>business & faster</h3>
-                            <p>Subdue creature does face signs evening good sixth foreign gaered one. Fruit. Third every fruitful multiply subdue creature doesn't face signs evening good sixth tyou're.</p>
-                            <a class="banner_btn" href="#">Begin Free Trial<i class="ti-arrow-right"></i></a>
+                            <h3>Super snel <br> jouw website of app online!</h3>
+                            <p>Met onze hoog opgeleide team staat uw website of app binnen 2 weken online. Onze team bestaat uit hbo opgeleide programmeurs met minstens 5 jaar aan ervaring en kennis in hun vak gebied!</p>
+                            <a class="banner_btn" href="contact.php">Neem contact op<i class="ti-arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -83,9 +33,9 @@
                             <i class="ti-pencil-alt"></i>
                         </div>
                         <div class="service-content">
-                            <h5>Unique Design</h5>
-                            <p>Third don't lights wherein was. bring to build them, seas. Thing gathering answ gaered beast third that heaven after all that living one bank limit</p>
-                            <a href="#">Read More</a>
+                            <h5>CMS systeem</h5>
+                            <p>Bij elke website implementeren wij een systeem waarmee jij wanneer je wilt je teksten zelf kan aanpassen. </p>
+                            <a href="#">Lees meer</a>
                         </div>
                     </div>
                 </div>
@@ -97,9 +47,9 @@
                             <i class="ti-image"></i>
                         </div>
                         <div class="service-content">
-                            <h5>Business Solution</h5>
-                            <p>Third don't lights wherein was. bring to build them, seas. Thing gathering answ gaered beast third that heaven after all that living one bank limit</p>
-                            <a href="#">Read More</a>
+                            <h5>SEO optimalisatie </h5>
+                            <p>Wij verdiepen ons in SEO (Search Engine Optimazation) zodat uw website hoog scoort in de zoekresultaten van zoekmachines zoals Google.</p>
+                            <a href="#">Lees meer</a>
                         </div>
                     </div>
                 </div>

@@ -103,7 +103,7 @@
                                     background: $baseColor;
                                     color: #fff;
                                 }
-                            }    
+                            }
                         }
                     }
                     &:hover{
@@ -134,7 +134,7 @@
             top: -70px;
             left: 0;
             right: 0;
-            background: rgba(0, 0, 0, 0.8);  
+            background: rgba(0, 0, 0, 0.8);
             transform: translateY(70px);
             transition: transform 500ms ease, background 500ms ease;
             -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -165,7 +165,7 @@
             margin-left: 68px;
             font-size: 16px;
             a{
-                color: $white; 
+                color: $white;
             }
         }
     }
@@ -268,5 +268,8 @@
     top: 80px;
 }
 
-
+.siteLogo {
+    width: 80%;
+    max-width: 400px;
+}
 
