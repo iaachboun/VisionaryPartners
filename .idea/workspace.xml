@@ -16,111 +16,19 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1519dc51-a695-428c-bbb7-0c1fc90dea97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo/logoIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/sass.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/sass.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/anymatch/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/anymatch/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/anymatch/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/anymatch/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/anymatch/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/binary-extensions/binary-extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/binary-extensions/binary-extensions.json.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/binary-extensions/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/binary-extensions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/binary-extensions/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/binary-extensions/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/binary-extensions/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/braces/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/braces/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/braces/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/braces/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/braces/lib/compile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/braces/lib/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/braces/lib/expand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/braces/lib/parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/braces/lib/stringify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/braces/lib/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/braces/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/lib/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/lib/fsevents-handler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/lib/nodefs-handler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/types/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fill-range/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fill-range/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fill-range/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fill-range/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/glob-parent/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/glob-parent/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/glob-parent/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/glob-parent/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-binary-path/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-binary-path/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-binary-path/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-binary-path/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-binary-path/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-extglob/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-extglob/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-extglob/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-extglob/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-number/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-number/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-number/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/is-number/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/normalize-path/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/normalize-path/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/normalize-path/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/normalize-path/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/lib/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/lib/parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/lib/picomatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/lib/scan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/lib/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sass/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sass/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sass/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sass/sass.dart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sass/sass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/to-regex-range/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/to-regex-range/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/to-regex-range/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/to-regex-range/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="1519dc51-a695-428c-bbb7-0c1fc90dea97" name="Default Changelist" comment="Home page tekst aangepast">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature.php" beforeDir="false" afterPath="$PROJECT_DIR$/feature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/price.php" beforeDir="false" afterPath="$PROJECT_DIR$/price.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,8 +64,18 @@
       <workItem from="1608830956281" duration="498000" />
       <workItem from="1608840723044" duration="1007000" />
       <workItem from="1609085743205" duration="4476000" />
-      <workItem from="1609160092350" duration="51000" />
+      <workItem from="1609160092350" duration="714000" />
+      <workItem from="1609280059761" duration="4216000" />
+      <workItem from="1610059889572" duration="504000" />
     </task>
+    <task id="LOCAL-00001" summary="Home page tekst aangepast">
+      <created>1609160208800</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609160208800</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,18 +86,38 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Home page tekst aangepast" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home page tekst aangepast" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1609085852650">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609085852650" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1609160210594">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609160210594" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1609086347282">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
