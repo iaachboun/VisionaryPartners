@@ -42,8 +42,7 @@
                 </div>
                 <div class="right-button">
                     <ul>
-                        <li class="shop-icon"><a href="#"><i class="ti-shopping-cart-full"></i><span>0</span></a></li>
-                        <li><a class="sign_up" href="">Sign Up</a></li>
+                        <li><a class="sign_up" href="contact.php">Begin nu</a></li>
                     </ul>
                 </div>
             </div>
