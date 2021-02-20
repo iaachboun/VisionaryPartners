@@ -28,9 +28,10 @@ require_once __DIR__ . '/header.php'
                             <i class="ti-pencil-alt"></i>
                         </div>
                         <div class="service-content">
-                            <h5>Unique Design</h5>
-                            <p>Third don't lights wherein was. bring to build them, seas. Thing gathering answ gaered beast third that heaven after all that living one bank limit</p>
-                            <a href="#">Read More</a>
+                            <h5>CMS systeem</h5>
+                            <p>Bij elke website implementeren wij een systeem waarmee jij wanneer je wilt je teksten zelf
+                                kan aanpassen. </p>
+                            <a href="#">Lees meer</a>
                         </div>
                     </div>
                 </div>
@@ -42,9 +43,10 @@ require_once __DIR__ . '/header.php'
                             <i class="ti-image"></i>
                         </div>
                         <div class="service-content">
-                            <h5>Business Solution</h5>
-                            <p>Third don't lights wherein was. bring to build them, seas. Thing gathering answ gaered beast third that heaven after all that living one bank limit</p>
-                            <a href="#">Read More</a>
+                            <h5>SEO optimalisatie </h5>
+                            <p>Wij verdiepen ons in SEO (Search Engine Optimazation) zodat uw website hoog scoort in de
+                                zoekresultaten van zoekmachines zoals Google.</p>
+                            <a href="#">Lees meer</a>
                         </div>
                     </div>
                 </div>
@@ -54,11 +56,11 @@ require_once __DIR__ . '/header.php'
                 <div class="col-md-6 col-lg-4">
                     <div class="single-service">
                         <div class="service-icon">
-                            <i class="ti-headphone-alt"></i>
+                            <i class="ti-settings"></i>
                         </div>
                         <div class="service-content">
-                            <h5>Customer Support</h5>
-                            <p>Third don't lights wherein was. bring to build them, seas. Thing gathering answ gaered beast third that heaven after all that living one bank limit</p>
+                            <h5>Website onderhoud</h5>
+                            <p>Visionary Partners geeft de optie om uw website te onderhouden. </p>
                             <a href="#">Read More</a>
                         </div>
                     </div>
