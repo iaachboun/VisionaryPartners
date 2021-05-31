@@ -15,6 +15,7 @@
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/a6fbdbdce9.js" crossorigin="anonymous"></script>
 </head>
 <body>
 

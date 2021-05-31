@@ -25,18 +25,20 @@ require_once __DIR__ . '/header.php'
             <div class="row">
                 <div class="col-12">
                     <div class="area-heading">
-                        <h4>Our Pricing Plan</h4>
+                        <h4>Onze pakketten</h4>
                         <p>Life firmament under them evening make after called dont saying likeness<br> isn't wherein also forth she'd air two without</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="single-pricing">
                         <div class="pricing-icon">
-                            <i class="ti-home"></i>
+<!--                            <i class="ti-home"></i>-->
+                            <i class="ti-bag"></i>
+<!--                            <i class="fas fa-cart-plus"></i>-->
                         </div>
                         <div class="single-pricing-content">
-                            <h5>Standard</h5>
-                            <h4>$25<span class="currency_line">/</span><span>month</span></h4>
+                            <h5>E-commerce</h5>
+                            <h4></span><span>vanaf</span> €100 - €900<span class="currency_line"></h4>
                             <ul>
                                 <li>2GB Bandwidth</li>
                                 <li>Two Account</li>
@@ -45,7 +47,7 @@ require_once __DIR__ . '/header.php'
                                 <li>3 Host Domain</li>
                                 <li>24/7 Support</li>
                             </ul>
-                            <a href="#">Purchase Now</a>
+                            <a href="#">Meer informatie</a>
                         </div>
                     </div>
                 </div>
@@ -53,10 +55,13 @@ require_once __DIR__ . '/header.php'
                 <div class="col-sm-6 col-lg-3">
                     <div class="single-pricing">
                         <div class="pricing-icon">
-                            <i class="ti-bag"></i>
+                            <i class="ti-id-badge"></i>
+<!--                            <i class="fas fa-briefcase"></i>-->
+<!--                            <i class="far fa-address-card"></i>-->
+<!--                            <i class="fas fa-address-card"></i>-->
                         </div>
                         <div class="single-pricing-content">
-                            <h5>Business</h5>
+                            <h5>Portfolio</h5>
                             <h4>$35<span class="currency_line">/</span><span>month</span></h4>
                             <ul>
                                 <li>2GB Bandwidth</li>
@@ -66,7 +71,7 @@ require_once __DIR__ . '/header.php'
                                 <li>3 Host Domain</li>
                                 <li>24/7 Support</li>
                             </ul>
-                            <a href="#">Purchase Now</a>
+                            <a href="#">Meer informatie</a>
                         </div>
                     </div>
                 </div>
@@ -74,10 +79,10 @@ require_once __DIR__ . '/header.php'
                 <div class="col-sm-6 col-lg-3">
                     <div class="single-pricing">
                         <div class="pricing-icon">
-                            <i class="ti-car"></i>
+                            <i class="ti-write"></i>
                         </div>
                         <div class="single-pricing-content">
-                            <h5>Premium</h5>
+                            <h5>Op maat</h5>
                             <h4>$45<span class="currency_line">/</span><span>month</span></h4>
                             <ul>
                                 <li>2GB Bandwidth</li>
@@ -87,7 +92,7 @@ require_once __DIR__ . '/header.php'
                                 <li>3 Host Domain</li>
                                 <li>24/7 Support</li>
                             </ul>
-                            <a href="#">Purchase Now</a>
+                            <a href="#">Meer informatie</a>
                         </div>
                     </div>
                 </div>
@@ -95,10 +100,10 @@ require_once __DIR__ . '/header.php'
                 <div class="col-sm-6 col-lg-3">
                     <div class="single-pricing">
                         <div class="pricing-icon">
-                            <i class="ti-gift"></i>
+                            <i class="ti-cloud-up"></i>
                         </div>
                         <div class="single-pricing-content">
-                            <h5>Ultimate</h5>
+                            <h5>Hosting</h5>
                             <h4>$55<span class="currency_line">/</span><span>month</span></h4>
                             <ul>
                                 <li>2GB Bandwidth</li>
@@ -108,7 +113,7 @@ require_once __DIR__ . '/header.php'
                                 <li>3 Host Domain</li>
                                 <li>24/7 Support</li>
                             </ul>
-                            <a href="#">Purchase Now</a>
+                            <a href="#">Meer informatie</a>
                         </div>
                     </div>
                 </div>
