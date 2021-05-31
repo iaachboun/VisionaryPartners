@@ -35,30 +35,14 @@ require_once __DIR__ . '/header.php'
                         <i class="ti-pencil-alt"></i>
                     </div>
                     <div class="service-content">
-                        <h5>CMS systeem</h5>
-                        <p>Bij elke website implementeren wij een systeem waarmee jij wanneer je wilt je teksten zelf
-                            kan aanpassen. </p>
+                        <h5>Portfolio's</h5>
+                        <p>Bent u van plan om uw werk op een professionele manier te promoten? Laat dan uw portfolio
+                            website maken door <strong>VisionaryPartners</strong>! Voor slechts ### kunt u all uw werk
+                            online op een spectaculaire manier laten zien. </p>
                         <a href="#">Lees meer</a>
                     </div>
                 </div>
             </div>
-
-            <!-- Single service -->
-            <div class="col-md-6 col-lg-4">
-                <div class="single-service">
-                    <div class="service-icon">
-                        <i class="ti-image"></i>
-                    </div>
-                    <div class="service-content">
-                        <h5>SEO optimalisatie </h5>
-                        <p>Wij verdiepen ons in SEO (Search Engine Optimazation) zodat uw website hoog scoort in de
-                            zoekresultaten van zoekmachines zoals Google.</p>
-                        <a href="#">Lees meer</a>
-                    </div>
-                </div>
-            </div>
-
-
             <!-- Single service -->
             <div class="col-md-6 col-lg-4">
                 <div class="single-service">
@@ -67,11 +51,28 @@ require_once __DIR__ . '/header.php'
                     </div>
                     <div class="service-content">
                         <h5>Website onderhoud</h5>
-                        <p>Visionary Partners geeft de optie om uw website te onderhouden. </p>
+                        <p><strong>VisionaryPartners</strong> geeft de optie om uw website te onderhouden. </p>
                         <a href="#">Read More</a>
                     </div>
                 </div>
             </div>
+            <!-- Single service -->
+            <div class="col-md-6 col-lg-4">
+                <div class="single-service">
+                    <div class="service-icon">
+                        <i class="ti-image"></i>
+                    </div>
+                    <div class="service-content">
+                        <h5>E-commerce</h5>
+                        <p>En webshop laten maken is een serieus project! Als ondernemer wilt u (hoogstwaarschijnelijk)
+                            duidelijk weten hoe uw website in elkaar zit. Daarom zullen wij bij <strong>VisionaryPartners</strong>
+                            al ons werk goed documenteren.
+                        </p>
+                        <a href="#">Lees meer</a>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
     </div>
@@ -89,7 +90,8 @@ require_once __DIR__ . '/header.php'
                     <h4>Oog voor kwaliteit <br> en snelheid </h4>
                     <h6>Elke website of app die wij maken is razendsnel </h6>
 
-                    <p>Wij hebben gespecialiseerde programmeurs die zich verdiept hebben in het sneller maken van de website. Hierdoor scoort uw website ook beter in de zoekmachines.</p>
+                    <p>Wij hebben gespecialiseerde programmeurs die zich verdiept hebben in het sneller maken van de
+                        website. Hierdoor scoort uw website ook beter in de zoekmachines.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-6">
@@ -99,7 +101,8 @@ require_once __DIR__ . '/header.php'
                             </div>
                             <div class="single-about-content">
                                 <h5>Wensen en eisen</h5>
-                                <p>De klant zijn wensen en eisen zijn onze top prioriteit. Samen gaan we ervoor zorgen om ur applicatie werkend te krijgen.</p>
+                                <p>De klant zijn wensen en eisen zijn onze top prioriteit. Samen gaan we ervoor zorgen
+                                    om ur applicatie werkend te krijgen.</p>
                             </div>
                         </div>
                     </div>
@@ -129,7 +132,8 @@ require_once __DIR__ . '/header.php'
             <div class="offset-lg-6 col-lg-6">
                 <div class="area-heading light">
                     <h4>Geschikt voor alle apperaten & browsers</h4>
-                    <p>Elke design dat wij voor uw maken is afgestemd voor elk apperaat & browser. Bij het designen van de website nemen wij feedback van de klant op in.</p>
+                    <p>Elke design dat wij voor uw maken is afgestemd voor elk apperaat & browser. Bij het designen van
+                        de website nemen wij feedback van de klant op in.</p>
                 </div>
                 <div class="row">
                     <div class="col-">
@@ -139,7 +143,8 @@ require_once __DIR__ . '/header.php'
                             </div>
                             <div class="single-feature-content">
                                 <h5>Meer gebruikers</h5>
-                                <p>Omdat wij elke web applicatie voor alle browsers en apperaten afstemmen zal uw web applicatie toegankelijk zijn voor meer gebruikers</p>
+                                <p>Omdat wij elke web applicatie voor alle browsers en apperaten afstemmen zal uw web
+                                    applicatie toegankelijk zijn voor meer gebruikers</p>
                             </div>
                         </div>
                     </div>
@@ -161,4 +166,4 @@ require_once __DIR__ . '/header.php'
 </section>
 </body>
 </html>
-<?php include_once "footer.php"?>
+<?php include_once "footer.php" ?>
