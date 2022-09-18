@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="right-button col-3 col-xl-2">
-                        <a class="sign_up" href="contact.php">Begin nu</a>
+                        <a class="sign_up" href="contact.php">Offerte</a>
                     </div>
                 </div>
             </div>

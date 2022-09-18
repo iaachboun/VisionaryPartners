@@ -38,14 +38,14 @@ require_once __DIR__ . '/header.php'
                         </div>
                         <div class="single-pricing-content">
                             <h5>E-commerce</h5>
-                            <h4></span><span>vanaf</span> €100 - €900<span class="currency_line"></h4>
+                            <h4><span>vanaf</span> €499 - €1499<span class="currency_line"></h4>
                             <ul>
-                                <li>2GB Bandwidth</li>
-                                <li>Two Account</li>
-                                <li>15GB Storage</li>
-                                <li>Sale After Service</li>
-                                <li>3 Host Domain</li>
-                                <li>24/7 Support</li>
+                                <li><p class="fa fa-check"></p> CMS systeem</li>
+                                <li><p class="fa fa-check"></p> Admin paneel</li>
+                                <li><p class="fa fa-check"></p> Statistieken</li>
+                                <li><p class="fa fa-check"></p> Bezorgdienst integragtie</li>
+                                <li><p class="fa fa-check"></p> Conversie gericht</li>
+                                <li><p class="fa fa-check"></p> 24/7 Support</li>
                             </ul>
                             <a href="#">Meer informatie</a>
                         </div>
@@ -61,15 +61,14 @@ require_once __DIR__ . '/header.php'
                             <!--                            <i class="fas fa-address-card"></i>-->
                         </div>
                         <div class="single-pricing-content">
-                            <h5>Portfolio</h5>
-                            <h4>$35<span class="currency_line">/</span><span>month</span></h4>
+                            <h5>Website</h5>
+                            <h4><span>vanaf</span> €299  </h4>
                             <ul>
-                                <li>2GB Bandwidth</li>
-                                <li>Two Account</li>
-                                <li>15GB Storage</li>
-                                <li>Sale After Service</li>
-                                <li>3 Host Domain</li>
-                                <li>24/7 Support</li>
+                                <li><p class="fa fa-check"></p> Zakelijke mail</li>
+                                <li><p class="fa fa-check"></p> Mobiel gepotimaliseerd</li>
+                                <li><p class="fa fa-check"></p> Social media integragtie</li>
+                                <li><p class="fa fa-check"></p>Google gepotimaliseerd</li>
+                                <li><p class="fa fa-check"></p> 24/7 Support</li>
                             </ul>
                             <a href="#">Meer informatie</a>
                         </div>
@@ -82,15 +81,14 @@ require_once __DIR__ . '/header.php'
                             <i class="ti-write"></i>
                         </div>
                         <div class="single-pricing-content">
-                            <h5>Op maat</h5>
-                            <h4>$45<span class="currency_line">/</span><span>month</span></h4>
+                            <h5>App</h5>
+                            <h4><span>vanaf</span> €599</h4>
                             <ul>
-                                <li>2GB Bandwidth</li>
-                                <li>Two Account</li>
-                                <li>15GB Storage</li>
-                                <li>Sale After Service</li>
-                                <li>3 Host Domain</li>
-                                <li>24/7 Support</li>
+                                <li><p class="fa fa-check"></p> Maatwerk</li>
+                                <li><p class="fa fa-check"></p> Voor elk apparaat</li>
+                                <li><p class="fa fa-check"></p> Optimale snelheid</li>
+                                <li><p class="fa fa-check"></p> Playstore/Appstore </li>
+                                <li><p class="fa fa-check"></p> 24/7 Support</li>
                             </ul>
                             <a href="#">Meer informatie</a>
                         </div>
@@ -103,15 +101,17 @@ require_once __DIR__ . '/header.php'
                             <i class="ti-cloud-up"></i>
                         </div>
                         <div class="single-pricing-content">
-                            <h5>Hosting</h5>
-                            <h4>$55<span class="currency_line">/</span><span>month</span></h4>
+                            <h5>Hosting/ Onderhoud</h5>
+                            <h4> €20<span class="currency_line">/</span><span>month</span></h4>
                             <ul>
-                                <li>2GB Bandwidth</li>
-                                <li>Two Account</li>
-                                <li>15GB Storage</li>
-                                <li>Sale After Service</li>
-                                <li>3 Host Domain</li>
-                                <li>24/7 Support</li>
+                                <li><p class="fa fa-check"></p> 99.9% uptime</li>
+                                <li><p class="fa fa-check"></p> Onbeperkt dataverkeer</li>
+                                <li><p class="fa fa-check"></p> SSL certificaat</li>
+                                <li><p class="fa fa-check"></p> Maandelijkse back-ups</li>
+                                <li><p class="fa fa-check"></p> Google optimalisatie</li>
+                                <li><p class="fa fa-check"></p> Persoonlijk admin account</li>
+                                <li><p class="fa fa-check"></p> Textuele wijzigingen en toevoegingen</li>
+                                <li><p class="fa fa-check"></p> Wijzigen en toevoegen van beeldmateriaal</li>
                             </ul>
                             <a href="#">Meer informatie</a>
                         </div>
