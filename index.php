@@ -131,7 +131,7 @@ require_once __DIR__ . '/header.php'
 
             <div class="offset-lg-6 col-lg-6">
                 <div class="area-heading light">
-                    <h4>Geschikt voor alle apperaten & browsers</h4>
+                    <h4>Geschikt voor alle apparaten & browsers</h4>
                     <p>Elke design dat wij voor uw maken is afgestemd voor elk apperaat & browser. Bij het designen van
                         de website nemen wij feedback van de klant op in.</p>
                 </div>
