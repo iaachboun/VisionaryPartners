@@ -129,7 +129,7 @@ require_once __DIR__ . '/header.php'
             <div class="row">
                 <div class="col-12">
                     <div class="area-heading">
-                        <h4>Find Informative Answer</h4>
+                        <h4>Vragen over VisionaryPartners?</h4>
                         <p>Divide the May unto bearing land the it fruitful likeness hath hath made you and after <br>fish
                             unto form unto begining tour play barney</p>
                     </div>
@@ -142,7 +142,7 @@ require_once __DIR__ . '/header.php'
                                 <h5 class="mb-0">
                                     <button class="btn btn-link" type="button" data-toggle="collapse"
                                             data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Who do I contact for press related inquiries?
+                                        Hoe kom ik in contact met VisionaryPartners?
                                     </button>
 
                                 </h5>
@@ -164,7 +164,7 @@ require_once __DIR__ . '/header.php'
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                             data-target="#collapseTwo" aria-expanded="false"
                                             aria-controls="collapseTwo">
-                                        Why is this course relevant today?
+                                        Is mijn site beveiligd?
                                     </button>
                                 </h5>
                             </div>
@@ -184,7 +184,7 @@ require_once __DIR__ . '/header.php'
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                             data-target="#collapseThree" aria-expanded="false"
                                             aria-controls="collapseThree">
-                                        How many people will be in the workshop?
+                                        Hoelang duurt het voordat mijn site/app af is?
                                     </button>
                                 </h5>
                             </div>
@@ -204,7 +204,7 @@ require_once __DIR__ . '/header.php'
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                             data-target="#collapseFour" aria-expanded="false"
                                             aria-controls="collapseFour">
-                                        What other workshop dates are available?
+                                        Wat nou als ik iets specifieks wil aanpassen aan mijn website?
                                     </button>
                                 </h5>
                             </div>
@@ -224,7 +224,7 @@ require_once __DIR__ . '/header.php'
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                             data-target="#collapseFive" aria-expanded="false"
                                             aria-controls="collapseFive">
-                                        How many people will be in the workshop?
+                                        Krijg ik gratis help bij mijn product?
                                     </button>
                                 </h5>
                             </div>
@@ -249,7 +249,7 @@ require_once __DIR__ . '/header.php'
                                 <h5 class="mb-0">
                                     <button class="btn btn-link" type="button" data-toggle="collapse"
                                             data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                                        Who do I contact for press related inquiries?
+                                        Zijn de prijzen vastgesteld?
                                     </button>
 
                                 </h5>
@@ -271,7 +271,7 @@ require_once __DIR__ . '/header.php'
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                             data-target="#collapseSeven" aria-expanded="false"
                                             aria-controls="collapseSeven">
-                                        Why is this course relevant today?
+                                        Kan ik maandelijks aanpassingen doorgeven die verwerkt <br> worden voor mijn product?
                                     </button>
                                 </h5>
                             </div>
@@ -291,7 +291,7 @@ require_once __DIR__ . '/header.php'
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                             data-target="#collapseEight" aria-expanded="false"
                                             aria-controls="collapseEight">
-                                        How many people will be in the workshop?
+                                        Maken wij logos?
                                     </button>
                                 </h5>
                             </div>
@@ -311,7 +311,7 @@ require_once __DIR__ . '/header.php'
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                             data-target="#collapseNine" aria-expanded="false"
                                             aria-controls="collapseNine">
-                                        What other workshop dates are available?
+                                        Is het mogelijk om een zakelijke mail te krijgen?
                                     </button>
                                 </h5>
                             </div>
@@ -331,7 +331,7 @@ require_once __DIR__ . '/header.php'
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                             data-target="#collapseTen" aria-expanded="false"
                                             aria-controls="collapseTen">
-                                        How many people will be in the workshop?
+                                        Kan ik mijn geld terug krijgen als ik van gedachte verander?
                                     </button>
                                 </h5>
                             </div>
