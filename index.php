@@ -35,11 +35,11 @@ require_once __DIR__ . '/header.php'
                         <i class="ti-pencil-alt"></i>
                     </div>
                     <div class="service-content">
-                        <h5>Portfolio's</h5>
-                        <p>Bent u van plan om uw werk op een professionele manier te promoten? Laat dan uw portfolio
-                            website maken door <strong>VisionaryPartners</strong>! Voor slechts ### kunt u all uw werk
-                            online op een spectaculaire manier laten zien. </p>
-                        <a href="#">Lees meer</a>
+                        <h5>Websites en apps</h5>
+                        <p>Bent u van plan om uw werk op een professionele manier te promoten? Laat dan uw
+                            website of app maken door <strong>VisionaryPartners</strong>! Vanaf slechts €299 kunt u al
+                            een op maat gemaakte website in elkaar laten zetten. </p>
+                        <a href="price.php">Lees meer</a>
                     </div>
                 </div>
             </div>
@@ -51,8 +51,10 @@ require_once __DIR__ . '/header.php'
                     </div>
                     <div class="service-content">
                         <h5>Website onderhoud</h5>
-                        <p><strong>VisionaryPartners</strong> geeft de optie om uw website te onderhouden. </p>
-                        <a href="#">Read More</a>
+                        <p><strong>VisionaryPartners</strong> zorgt ervoor dat uw website onderhouden en online gezet
+                            wordt. U komt terecht op onze cloud omgeving met een 99.9% uptime en een hoge beoordeling in
+                            de google zoekresultaten.</p>
+                        <a href="price.php">Lees meer</a>
                     </div>
                 </div>
             </div>
@@ -64,11 +66,12 @@ require_once __DIR__ . '/header.php'
                     </div>
                     <div class="service-content">
                         <h5>E-commerce</h5>
-                        <p>En webshop laten maken is een serieus project! Als ondernemer wilt u (hoogstwaarschijnelijk)
-                            duidelijk weten hoe uw website in elkaar zit. Daarom zullen wij bij <strong>VisionaryPartners</strong>
-                            al ons werk goed documenteren.
+                        <p>En webshop laten maken is een serieus project! In de tijd van nu kan je niet meer zonder een
+                            professionele
+                            webshop de deur uit. Daarom zullen wij bij <strong>VisionaryPartners</strong> ervoor zorgen
+                            dat uw webshop makkelijk aanpasbaar is...
                         </p>
-                        <a href="#">Lees meer</a>
+                        <a href="price.php">Lees meer</a>
                     </div>
                 </div>
             </div>
@@ -100,9 +103,9 @@ require_once __DIR__ . '/header.php'
                                 <i class="ti-thought"></i>
                             </div>
                             <div class="single-about-content">
-                                <h5>Wensen en eisen</h5>
-                                <p>De klant zijn wensen en eisen zijn onze top prioriteit. Samen gaan we ervoor zorgen
-                                    om ur applicatie werkend te krijgen.</p>
+                                <h5>Eisen en wensen</h5>
+                                <p>De klant zijn eisen en wensen zijn onze top prioriteit. Samen gaan we ervoor zorgen
+                                    dat uw applicatie precies naar wens is.</p>
                             </div>
                         </div>
                     </div>
@@ -112,8 +115,8 @@ require_once __DIR__ . '/header.php'
                                 <i class="ti-truck"></i>
                             </div>
                             <div class="single-about-content">
-                                <h5>Razen snel opgelevert</h5>
-                                <p>Onze team zorgt ervoor dat wij u zo snel mogelijk de website oplevert</p>
+                                <h5>Razendsnel opgeleverd</h5>
+                                <p>Ons team zorgt ervoor dat uw website zo snel mogelijk online komt.</p>
                             </div>
                         </div>
                     </div>
@@ -132,8 +135,8 @@ require_once __DIR__ . '/header.php'
             <div class="offset-lg-6 col-lg-6">
                 <div class="area-heading light">
                     <h4>Geschikt voor alle apparaten & browsers</h4>
-                    <p>Elke design dat wij voor uw maken is afgestemd voor elk apperaat & browser. Bij het designen van
-                        de website nemen wij feedback van de klant op in.</p>
+                    <p>Elk ontwerp dat wij voor uw maken is volledig responsive en geoptimaliseerd voor elk apparaat. Bij het designen van
+                        de website nemen wij de feedback van de klant mee in het proces.</p>
                 </div>
                 <div class="row">
                     <div class="col-">
