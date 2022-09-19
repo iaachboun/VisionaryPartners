@@ -45,13 +45,13 @@
                         <ul class="nav navbar-nav menu_nav mx-auto">
                             <li class="nav-item"><a class="nav-link" href="index.php"><i class="fa fa-home"></i> Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="feature.php"><i class="fa-solid fa-star"></i> Features</a></li>
-                            <li class="nav-item"><a class="nav-link" href="price.php"><i class="fa-solid fa-money-bill-wave"></i> Price</a></li>
+                            <li class="nav-item"><a class="nav-link" href="price.php"><i class="fa-solid fa-money-bill-wave"></i> Prijzen</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.php"><i class="fa-solid fa-address-card"></i> Contact</a></li>
                         </ul>
                     </div>
 
                     <div class="right-button col-3 col-xl-2">
-                        <a class="sign_up" href="contact.php">Offerte</a>
+                        <a class="sign_up" href="offerte.php">Offerte</a>
                     </div>
                 </div>
             </div>

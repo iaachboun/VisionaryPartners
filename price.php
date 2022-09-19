@@ -6,11 +6,11 @@ require_once __DIR__ . '/header.php'
     <!--================Hero Banner Area Start =================-->
     <section class="hero-banner d-flex align-items-center">
         <div class="container text-center">
-            <h2>Price</h2>
+            <h2>Prijzen</h2>
             <nav aria-label="breadcrumb" class="banner-breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Price</li>
+                    <li class="breadcrumb-item active" aria-current="page">Prijzen</li>
                 </ol>
             </nav>
         </div>

@@ -63,7 +63,8 @@
         <div class="footer-bottom row align-items-center text-center no-gutters">
             <p class="footer-text m-0 col-lg-12 col-md-12">
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script><a href="http://VisionaryPartners.nl"> VisionaryPartners</a>
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                <a href="http://VisionaryPartners.nl"> VisionaryPartners</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
         </div>
     </div>
@@ -85,3 +86,5 @@
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/mail-script.js"></script>
 <script src="js/theme.js"></script>
+</body>
+</html>
