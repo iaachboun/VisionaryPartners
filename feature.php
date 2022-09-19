@@ -81,11 +81,11 @@ require_once __DIR__ . '/header.php'
 
             <div class="col-lg-6">
                 <div class="area-heading">
-                    <h4>Form Female From<br>Cattle Evening. </h4>
-                    <h6>And appear great open bearing evening dominion vodi </h6>
+                    <h4>Een website op maat. </h4>
+                    <h6>Tegenwoordig wil je als bedrijf uniek zijn in wat je laat zien.</h6>
 
-                    <p>There earth face earth behold. She'd stars made void two given do and also. Our own grass days.
-                        Greater male Shall There faced earth behold She star</p>
+                    <p>Wij als <strong>VisionaryPartners</strong> nemen dit heel serieus en is het bij ons top
+                        prioriteit dat we gezamenlijk tot een uniek product uitkomen.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-6">
@@ -94,9 +94,10 @@ require_once __DIR__ . '/header.php'
                                 <i class="ti-thought"></i>
                             </div>
                             <div class="single-about-content">
-                                <h5>Cloud Compatibility</h5>
-                                <p>There earth face earth behold. She stars made void two given and also our own grass
-                                    days. Greater </p>
+                                <h5>Gezamenlijke ideeēn.</h5>
+                                <p>Met onze ervaring kunnen wij u goed begeleiden op het gebied van een unieke en
+                                    bijzondere website of app. We gaan gezamenlijk alle eisen en wensen langs en
+                                    proberen hierin onze professionele mening te geven voor een goed resultaat.</p>
                             </div>
                         </div>
                     </div>
@@ -106,9 +107,11 @@ require_once __DIR__ . '/header.php'
                                 <i class="ti-truck"></i>
                             </div>
                             <div class="single-about-content">
-                                <h5>On Time Delivery</h5>
-                                <p>There earth face earth behold. She stars made void two given and also our own grass
-                                    days. Greater </p>
+                                <h5>Oplevering op tijd</h5>
+                                <p>We zorgen er uiteraard voor dat uw website op tijd af en online komt te staan op het
+                                    aangegeven moment. <br><br>Wachten op certificaten en domein namen die nog overgeschreven
+                                    moeten worden regelen wij allemaal van tevoren samenhangend met het <a href="price.php">hosting en
+                                        onderhoud pakket</a>.</p>
                             </div>
                         </div>
                     </div>
