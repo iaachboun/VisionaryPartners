@@ -30,8 +30,8 @@ require_once __DIR__ . '/header.php'
                     <div class="service-content">
                         <h5>CMS systeem</h5>
                         <p>Bij elke website implementeren wij een systeem waarmee jij wanneer je wilt je teksten zelf
-                            kan aanpassen. </p>
-                        <a href="#">Lees meer</a>
+                            kan aanpassen. <br><br> Hierdoor is het voor jou snel en gemakkelijk voor elkaar te krijgen
+                            je website een andere stijl te geven.</p>
                     </div>
                 </div>
             </div>
@@ -44,9 +44,9 @@ require_once __DIR__ . '/header.php'
                     </div>
                     <div class="service-content">
                         <h5>SEO optimalisatie </h5>
-                        <p>Wij verdiepen ons in SEO (Search Engine Optimazation) zodat uw website hoog scoort in de
-                            zoekresultaten van zoekmachines zoals Google.</p>
-                        <a href="#">Lees meer</a>
+                        <p>Wij zorgen ervoor dat uw website hoog in de
+                            zoekresultaten van Google komt te staan. Dit doen we aan de hand van SEO (Search Engine
+                            Optimization).</p>
                     </div>
                 </div>
             </div>
@@ -60,8 +60,10 @@ require_once __DIR__ . '/header.php'
                     </div>
                     <div class="service-content">
                         <h5>Website onderhoud</h5>
-                        <p>Visionary Partners geeft de optie om uw website te onderhouden. </p>
-                        <a href="#">Read More</a>
+                        <p>Wij van <strong>VisionaryPartners</strong> kunnen ook uw website onderhouden op
+                            onze cloud omgeving. Onze cloud omgeving is goed beveiligd en wij zorgen er dan voor dat uw
+                            website 99.9% van de tijd online blijft
+                            en altijd up-to-date is met de nieuwste versies.</p>
                     </div>
                 </div>
             </div>

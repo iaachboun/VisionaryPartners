@@ -146,8 +146,7 @@ require_once __DIR__ . '/header.php'
                             </div>
                             <div class="single-feature-content">
                                 <h5>Meer gebruikers</h5>
-                                <p>Omdat wij elke web applicatie voor alle browsers en apperaten afstemmen zal uw web
-                                    applicatie toegankelijk zijn voor meer gebruikers</p>
+                                <p>We zorgen ervoor dat uw website hoog in de google zoekresultaten komt te staan. Hierdoor wordt het verkeer op uw website bevorderd.</p>
                             </div>
                         </div>
                     </div>
@@ -158,7 +157,7 @@ require_once __DIR__ . '/header.php'
                             </div>
                             <div class="single-feature-content">
                                 <h5>De laatste technieken!</h5>
-                                <p>Wij gebruiken de meeste recente technieken en technologien om uw website te maken</p>
+                                <p>Wij gebruiken de nieuwste technieken en technologieën voor het maken van uw website of app. </p>
                             </div>
                         </div>
                     </div>
