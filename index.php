@@ -11,8 +11,8 @@ require_once __DIR__ . '/header.php'
                 <div class="col-lg-6 offset-lg-6 col-xl-5 offset-xl-7">
                     <div class="banner_content">
                         <h3>Super snel <br> jouw website of app online!</h3>
-                        <p>Met onze hoog opgeleide team staat uw website of app binnen 2 weken online. Onze team bestaat
-                            uit hbo opgeleide programmeurs met minstens 5 jaar aan ervaring en kennis in hun vak
+                        <p>Met ons hoog opgeleid team staat uw website of app binnen 2 weken online. Ons team bestaat
+                            uit HBO-programmeurs met minstens 5 jaar aan ervaring en kennis in hun vak
                             gebied!</p>
                         <a class="banner_btn" href="contact.php">Neem contact op<i class="ti-arrow-right"></i></a>
                     </div>
