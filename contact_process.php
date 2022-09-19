@@ -1,37 +1,61 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\SMTP;
 
-    $to = "rockybd1995@gmail.com";
+require 'vendor/PHPMailer/phpmailer/src/Exception.php';
+require 'vendor/PHPMailer/phpmailer/src/PHPMailer.php';
+require 'vendor/PHPMailer/phpmailer/src/SMTP.php';
+
+
+//Create an instance; passing `true` enables exceptions
+$mail = new PHPMailer(true);
+
+try {
+    $to = "ili.aachboun1@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
     $number = $_REQUEST['number'];
     $cmessage = $_REQUEST['message'];
 
-    $headers = "From: $from";
-	$headers = "From: " . $from . "\r\n";
-	$headers .= "Reply-To: ". $from . "\r\n";
-	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+    //Server settings
+    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+    $mail->isSMTP();                                            //Send using SMTP
+    $mail->Host = 'mail.mijndomein.nl';                     //Set the SMTP server to send through
+    $mail->SMTPAuth = true;                                   //Enable SMTP authentication
+    $mail->Username = 'info@visionarypartners.nl';                     //SMTP username
+    $mail->Password = 'bTK*nX5x^afylz71';                               //SMTP password
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+    $mail->Port = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
-    $subject = "You have a message from your Bitmap Photography.";
+    //Recipients
+    $mail->setFrom('info@visionarypartners.nl', 'VisionaryPartners.nl');
+    $mail->addAddress('info@visionarypartners.nl', 'VisionaryPartners.nl');     //Add a recipient
+    $mail->addReplyTo('info@example.com', 'Information');
 
-    $logo = 'img/logo.png';
-    $link = '#';
 
-	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
-	$body .= "<table style='width: 100%;'>";
-	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
-	$body .= "<a href='{$link}'><img src='{$logo}' alt=''></a><br><br>";
-	$body .= "</td></tr></thead><tbody><tr>";
-	$body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
-	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
-	$body .= "</tr>";
-	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
-	$body .= "<tr><td></td></tr>";
-	$body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
-	$body .= "</tbody></table>";
-	$body .= "</body></html>";
+    //Content
+    $mail->isHTML(true);                                  //Set email format to HTML
+    $mail->Subject = $_POST['naamContact'] . " heeft aangemeld voor contact.";
+    $mail->Body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
+    $mail->Body .= "<table style='width: 100%;'>";
+    $mail->Body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
+    $mail->Body .= "<a href='visionarypartners.nl'><img src='img/logo/logoIcon.png' alt=''></a><br><br>";
+    $mail->Body .= "</td></tr></thead><tbody><tr>";
+    $mail->Body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
+    $mail->Body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
+    $mail->Body .= "</tr>";
+    $mail->Body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$subject}</td></tr>";
+    $mail->Body .= "<tr><td></td></tr>";
+    $mail->Body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
+    $mail->Body .= "</tbody></table>";
+    $mail->Body .= "</body></html>";
 
-    $send = mail($to, $subject, $body, $headers);
-
-?>
+    $mail->send();
+    header('location: /contact.php');
+    echo 'Bericht is verstuurd!';
+} catch (Exception $e) {
+    echo "Bericht kon niet verstuurd worden!: {$mail->ErrorInfo}";
+}
+?>q

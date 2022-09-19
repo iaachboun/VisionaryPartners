@@ -50,9 +50,9 @@
                         </ul>
                     </div>
 
-                    <div class="right-button col-3 col-xl-2">
+                   <!-- <div class="right-button col-3 col-xl-2">
                         <a class="sign_up" href="offerte.php">Offerte</a>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </nav>
