@@ -11,8 +11,8 @@ require_once __DIR__ . '/header.php'
                 <div class="col-lg-6 offset-lg-6 col-xl-5 offset-xl-7">
                     <div class="banner_content">
                         <h3>Super snel <br> jouw website of app online!</h3>
-                        <p>Met onze hoog opgeleide team staat uw website of app binnen 2 weken online. Onze team bestaat
-                            uit hbo opgeleide programmeurs met minstens 5 jaar aan ervaring en kennis in hun vak
+                        <p>Met ons hoog opgeleid team staat uw website of app binnen 2 weken online. Ons team bestaat
+                            uit HBO-programmeurs met minstens 5 jaar aan ervaring en kennis in hun vak
                             gebied!</p>
                         <a class="banner_btn" href="contact.php">Neem contact op<i class="ti-arrow-right"></i></a>
                     </div>
@@ -35,30 +35,14 @@ require_once __DIR__ . '/header.php'
                         <i class="ti-pencil-alt"></i>
                     </div>
                     <div class="service-content">
-                        <h5>CMS systeem</h5>
-                        <p>Bij elke website implementeren wij een systeem waarmee jij wanneer je wilt je teksten zelf
-                            kan aanpassen. </p>
-                        <a href="#">Lees meer</a>
+                        <h5>Websites en apps</h5>
+                        <p>Bent u van plan om uw werk op een professionele manier te promoten? Laat dan uw
+                            website of app maken door <strong>VisionaryPartners</strong>! Vanaf slechts €299 kunt u al
+                            een op maat gemaakte website in elkaar laten zetten. </p>
+                        <a href="price.php">Lees meer</a>
                     </div>
                 </div>
             </div>
-
-            <!-- Single service -->
-            <div class="col-md-6 col-lg-4">
-                <div class="single-service">
-                    <div class="service-icon">
-                        <i class="ti-image"></i>
-                    </div>
-                    <div class="service-content">
-                        <h5>SEO optimalisatie </h5>
-                        <p>Wij verdiepen ons in SEO (Search Engine Optimazation) zodat uw website hoog scoort in de
-                            zoekresultaten van zoekmachines zoals Google.</p>
-                        <a href="#">Lees meer</a>
-                    </div>
-                </div>
-            </div>
-
-
             <!-- Single service -->
             <div class="col-md-6 col-lg-4">
                 <div class="single-service">
@@ -67,11 +51,31 @@ require_once __DIR__ . '/header.php'
                     </div>
                     <div class="service-content">
                         <h5>Website onderhoud</h5>
-                        <p>Visionary Partners geeft de optie om uw website te onderhouden. </p>
-                        <a href="#">Read More</a>
+                        <p><strong>VisionaryPartners</strong> zorgt ervoor dat uw website onderhouden en online gezet
+                            wordt. U komt terecht op onze cloud omgeving met een 99.9% uptime en een hoge beoordeling in
+                            de google zoekresultaten.</p>
+                        <a href="price.php">Lees meer</a>
                     </div>
                 </div>
             </div>
+            <!-- Single service -->
+            <div class="col-md-6 col-lg-4">
+                <div class="single-service">
+                    <div class="service-icon">
+                        <i class="ti-image"></i>
+                    </div>
+                    <div class="service-content">
+                        <h5>E-commerce</h5>
+                        <p>En webshop laten maken is een serieus project! In de tijd van nu kan je niet meer zonder een
+                            professionele
+                            webshop de deur uit. Daarom zullen wij bij <strong>VisionaryPartners</strong> ervoor zorgen
+                            dat uw webshop makkelijk aanpasbaar is...
+                        </p>
+                        <a href="price.php">Lees meer</a>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
     </div>
@@ -89,7 +93,8 @@ require_once __DIR__ . '/header.php'
                     <h4>Oog voor kwaliteit <br> en snelheid </h4>
                     <h6>Elke website of app die wij maken is razendsnel </h6>
 
-                    <p>Wij hebben gespecialiseerde programmeurs die zich verdiept hebben in het sneller maken van de website. Hierdoor scoort uw website ook beter in de zoekmachines.</p>
+                    <p>Wij hebben gespecialiseerde programmeurs die zich verdiept hebben in het sneller maken van de
+                        website. Hierdoor scoort uw website ook beter in de zoekmachines.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-6">
@@ -98,8 +103,9 @@ require_once __DIR__ . '/header.php'
                                 <i class="ti-thought"></i>
                             </div>
                             <div class="single-about-content">
-                                <h5>Wensen en eisen</h5>
-                                <p>De klant zijn wensen en eisen zijn onze top prioriteit. Samen gaan we ervoor zorgen om ur applicatie werkend te krijgen.</p>
+                                <h5>Eisen en wensen</h5>
+                                <p>De klant zijn eisen en wensen zijn onze top prioriteit. Samen gaan we ervoor zorgen
+                                    dat uw applicatie precies naar wens is.</p>
                             </div>
                         </div>
                     </div>
@@ -109,8 +115,8 @@ require_once __DIR__ . '/header.php'
                                 <i class="ti-truck"></i>
                             </div>
                             <div class="single-about-content">
-                                <h5>Razen snel opgelevert</h5>
-                                <p>Onze team zorgt ervoor dat wij u zo snel mogelijk de website oplevert</p>
+                                <h5>Razendsnel opgeleverd</h5>
+                                <p>Ons team zorgt ervoor dat uw website zo snel mogelijk online komt.</p>
                             </div>
                         </div>
                     </div>
@@ -128,8 +134,9 @@ require_once __DIR__ . '/header.php'
 
             <div class="offset-lg-6 col-lg-6">
                 <div class="area-heading light">
-                    <h4>Geschikt voor alle apperaten & browsers</h4>
-                    <p>Elke design dat wij voor uw maken is afgestemd voor elk apperaat & browser. Bij het designen van de website nemen wij feedback van de klant op in.</p>
+                    <h4>Geschikt voor alle apparaten & browsers</h4>
+                    <p>Elk ontwerp dat wij voor uw maken is volledig responsive en geoptimaliseerd voor elk apparaat. Bij het designen van
+                        de website nemen wij de feedback van de klant mee in het proces.</p>
                 </div>
                 <div class="row">
                     <div class="col-">
@@ -139,7 +146,8 @@ require_once __DIR__ . '/header.php'
                             </div>
                             <div class="single-feature-content">
                                 <h5>Meer gebruikers</h5>
-                                <p>Omdat wij elke web applicatie voor alle browsers en apperaten afstemmen zal uw web applicatie toegankelijk zijn voor meer gebruikers</p>
+                                <p>Omdat wij elke web applicatie voor alle browsers en apperaten afstemmen zal uw web
+                                    applicatie toegankelijk zijn voor meer gebruikers</p>
                             </div>
                         </div>
                     </div>
@@ -159,191 +167,6 @@ require_once __DIR__ . '/header.php'
         </div>
     </div>
 </section>
-<!--================Feature Area End =================-->
-
-
-<!--================About  Area =================-->
-<section class="statics-area area-padding">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-lg-5">
-                <div class="image-box">
-                    <img src="img/banner/about3.png" alt="">
-                </div>
-            </div>
-
-            <div class="offset-lg-1 col-lg-6">
-                <div class="area-heading">
-                    <h4>Geoptimaliseerd voor zoekmachines</h4>
-                    <h6>hello world</h6>
-
-                    <p>There earth face earth behold. She'd stars made void two given do and also. Our own grass days.
-                        Greater male Shall There faced earth behold She star</p>
-                </div>
-                <div class="single-data">
-                    <i class="ti-paint-bucket"></i>
-                    <p>Set dry signs spirit a kind First shall them.</p>
-                </div>
-                <div class="single-data">
-                    <i class="ti-check-box"></i>
-                    <p>He two face one moved dominion man you're likeness</p>
-                </div>
-                <div class="single-data">
-                    <i class="ti-ruler-pencil"></i>
-                    <p>Sea forth fill have divide be dominion from life</p>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-<!--================About Area End =================-->
-
-<!--================ Start Brands Area =================-->
-<section class="brands-area area-padding-bottom">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="owl-carousel brand-carousel">
-                    <!-- single-brand -->
-                    <div class="single-brand-item d-table">
-                        <div class="d-table-cell">
-                            <img src="img/logo/1.png" alt="">
-                        </div>
-                    </div>
-                    <!-- single-brand -->
-                    <div class="single-brand-item d-table">
-                        <div class="d-table-cell">
-                            <img src="img/logo/2.png" alt="">
-                        </div>
-                    </div>
-                    <!-- single-brand -->
-                    <div class="single-brand-item d-table">
-                        <div class="d-table-cell">
-                            <img src="img/logo/3.png" alt="">
-                        </div>
-                    </div>
-                    <!-- single-brand -->
-                    <div class="single-brand-item d-table">
-                        <div class="d-table-cell">
-                            <img src="img/logo/4.png" alt="">
-                        </div>
-                    </div>
-                    <!-- single-brand -->
-                    <div class="single-brand-item d-table">
-                        <div class="d-table-cell">
-                            <img src="img/logo/5.png" alt="">
-                        </div>
-                    </div>
-                    <!-- single-brand -->
-                    <div class="single-brand-item d-table">
-                        <div class="d-table-cell">
-                            <img src="img/logo/3.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--================ End Brands Area =================-->
-
-
-<!-- ================ start footer Area ================= -->
-<footer class="footer-area">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                <h4>About Us</h4>
-                <p>Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open</p>
-                <div class="footer-logo">
-                    <img src="img/logo.png" alt="">
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                <h4>Contact Info</h4>
-                <div class="footer-address">
-                    <p>Address :Your address goes
-                        here, your demo address.</p>
-                    <span>Phone : +8880 44338899</span>
-                    <span>Email : info@colorlib.com</span>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                <h4>Important Link</h4>
-                <ul>
-                    <li><a href="#">WHMCS-bridge</a></li>
-                    <li><a href="#">Search Domain</a></li>
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">Shopping Cart</a></li>
-                    <li><a href="#">Our Shop</a></li>
-                </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-8 mb-4 mb-xl-0 single-footer-widget">
-                <h4>Newsletter</h4>
-                <p>Heaven fruitful doesn't over lesser in days. Appear creeping seasons deve behold bearing days
-                    open</p>
-
-                <div class="form-wrap" id="mc_embed_signup">
-                    <form target="_blank"
-                          action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                          method="get">
-                        <div class="input-group">
-                            <input type="email" class="form-control" name="EMAIL" placeholder="Your Email Address"
-                                   onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '">
-                            <div class="input-group-append">
-                                <button class="btn click-btn" type="submit">
-                                    <i class="fab fa-telegram-plane"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div style="position: absolute; left: -5000px;">
-                            <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-                        </div>
-
-                        <div class="info"></div>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-        <div class="footer-bottom row align-items-center text-center text-lg-left no-gutters">
-            <p class="footer-text m-0 col-lg-8 col-md-12">
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a
-                        href="https://colorlib.com" target="_blank">Colorlib</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-            <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
-                <a href="#"><i class="ti-facebook"></i></a>
-                <a href="#"><i class="ti-twitter-alt"></i></a>
-                <a href="#"><i class="ti-dribbble"></i></a>
-                <a href="#"><i class="ti-linkedin"></i></a>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- ================ End footer Area ================= -->
-
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/jquery-2.2.4.min.js"></script>
-<script src="js/popper.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-<script src="js/jquery.ajaxchimp.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/mail-script.js"></script>
-<script src="js/contact.js"></script>
-<script src="js/jquery.form.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/mail-script.js"></script>
-<script src="js/theme.js"></script>
 </body>
 </html>
+<?php include_once "footer.php" ?>

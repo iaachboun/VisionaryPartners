@@ -6,17 +6,16 @@ require_once __DIR__ . '/header.php'
     <!--================Hero Banner Area Start =================-->
     <section class="hero-banner d-flex align-items-center">
         <div class="container text-center">
-            <h2>Price</h2>
+            <h2>Prijzen</h2>
             <nav aria-label="breadcrumb" class="banner-breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Price</li>
+                    <li class="breadcrumb-item active" aria-current="page">Prijzen</li>
                 </ol>
             </nav>
         </div>
     </section>
     <!--================Hero Banner Area End =================-->
-
 
 
     <!--================ Start Portfolio Area =================-->
@@ -25,48 +24,30 @@ require_once __DIR__ . '/header.php'
             <div class="row">
                 <div class="col-12">
                     <div class="area-heading">
-                        <h4>Our Pricing Plan</h4>
-                        <p>Life firmament under them evening make after called dont saying likeness<br> isn't wherein also forth she'd air two without</p>
+                        <h4>Onze pakketten</h4>
+                        <p>Life firmament under them evening make after called dont saying likeness<br> isn't wherein
+                            also forth she'd air two without</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="single-pricing">
                         <div class="pricing-icon">
-                            <i class="ti-home"></i>
-                        </div>
-                        <div class="single-pricing-content">
-                            <h5>Standard</h5>
-                            <h4>$25<span class="currency_line">/</span><span>month</span></h4>
-                            <ul>
-                                <li>2GB Bandwidth</li>
-                                <li>Two Account</li>
-                                <li>15GB Storage</li>
-                                <li>Sale After Service</li>
-                                <li>3 Host Domain</li>
-                                <li>24/7 Support</li>
-                            </ul>
-                            <a href="#">Purchase Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-3">
-                    <div class="single-pricing">
-                        <div class="pricing-icon">
+                            <!--                            <i class="ti-home"></i>-->
                             <i class="ti-bag"></i>
+                            <!--                            <i class="fas fa-cart-plus"></i>-->
                         </div>
                         <div class="single-pricing-content">
-                            <h5>Business</h5>
-                            <h4>$35<span class="currency_line">/</span><span>month</span></h4>
+                            <h5>E-commerce</h5>
+                            <h4><span>vanaf</span> €499 - €1499<span class="currency_line"></h4>
                             <ul>
-                                <li>2GB Bandwidth</li>
-                                <li>Two Account</li>
-                                <li>15GB Storage</li>
-                                <li>Sale After Service</li>
-                                <li>3 Host Domain</li>
-                                <li>24/7 Support</li>
+                                <li><p class="fa fa-check"></p> CMS systeem</li>
+                                <li><p class="fa fa-check"></p> Admin paneel</li>
+                                <li><p class="fa fa-check"></p> Statistieken</li>
+                                <li><p class="fa fa-check"></p> Bezorgdienst integragtie</li>
+                                <li><p class="fa fa-check"></p> Conversie gericht</li>
+                                <li><p class="fa fa-check"></p> 24/7 Support</li>
                             </ul>
-                            <a href="#">Purchase Now</a>
+                            <a href="#">Meer informatie</a>
                         </div>
                     </div>
                 </div>
@@ -74,20 +55,22 @@ require_once __DIR__ . '/header.php'
                 <div class="col-sm-6 col-lg-3">
                     <div class="single-pricing">
                         <div class="pricing-icon">
-                            <i class="ti-car"></i>
+                            <i class="ti-id-badge"></i>
+                            <!--                            <i class="fas fa-briefcase"></i>-->
+                            <!--                            <i class="far fa-address-card"></i>-->
+                            <!--                            <i class="fas fa-address-card"></i>-->
                         </div>
                         <div class="single-pricing-content">
-                            <h5>Premium</h5>
-                            <h4>$45<span class="currency_line">/</span><span>month</span></h4>
+                            <h5>Website</h5>
+                            <h4><span>vanaf</span> €299  </h4>
                             <ul>
-                                <li>2GB Bandwidth</li>
-                                <li>Two Account</li>
-                                <li>15GB Storage</li>
-                                <li>Sale After Service</li>
-                                <li>3 Host Domain</li>
-                                <li>24/7 Support</li>
+                                <li><p class="fa fa-check"></p> Zakelijke mail</li>
+                                <li><p class="fa fa-check"></p> Mobiel gepotimaliseerd</li>
+                                <li><p class="fa fa-check"></p> Social media integragtie</li>
+                                <li><p class="fa fa-check"></p>Google gepotimaliseerd</li>
+                                <li><p class="fa fa-check"></p> 24/7 Support</li>
                             </ul>
-                            <a href="#">Purchase Now</a>
+                            <a href="#">Meer informatie</a>
                         </div>
                     </div>
                 </div>
@@ -95,20 +78,42 @@ require_once __DIR__ . '/header.php'
                 <div class="col-sm-6 col-lg-3">
                     <div class="single-pricing">
                         <div class="pricing-icon">
-                            <i class="ti-gift"></i>
+                            <i class="ti-write"></i>
                         </div>
                         <div class="single-pricing-content">
-                            <h5>Ultimate</h5>
-                            <h4>$55<span class="currency_line">/</span><span>month</span></h4>
+                            <h5>App</h5>
+                            <h4><span>vanaf</span> €599</h4>
                             <ul>
-                                <li>2GB Bandwidth</li>
-                                <li>Two Account</li>
-                                <li>15GB Storage</li>
-                                <li>Sale After Service</li>
-                                <li>3 Host Domain</li>
-                                <li>24/7 Support</li>
+                                <li><p class="fa fa-check"></p> Maatwerk</li>
+                                <li><p class="fa fa-check"></p> Voor elk apparaat</li>
+                                <li><p class="fa fa-check"></p> Optimale snelheid</li>
+                                <li><p class="fa fa-check"></p> Playstore/Appstore </li>
+                                <li><p class="fa fa-check"></p> 24/7 Support</li>
                             </ul>
-                            <a href="#">Purchase Now</a>
+                            <a href="#">Meer informatie</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single-pricing">
+                        <div class="pricing-icon">
+                            <i class="ti-cloud-up"></i>
+                        </div>
+                        <div class="single-pricing-content">
+                            <h5>Hosting/ Onderhoud</h5>
+                            <h4> €20<span class="currency_line">/</span><span>month</span></h4>
+                            <ul>
+                                <li><p class="fa fa-check"></p> 99.9% uptime</li>
+                                <li><p class="fa fa-check"></p> Onbeperkt dataverkeer</li>
+                                <li><p class="fa fa-check"></p> SSL certificaat</li>
+                                <li><p class="fa fa-check"></p> Maandelijkse back-ups</li>
+                                <li><p class="fa fa-check"></p> Google optimalisatie</li>
+                                <li><p class="fa fa-check"></p> Persoonlijk admin account</li>
+                                <li><p class="fa fa-check"></p> Textuele wijzigingen en toevoegingen</li>
+                                <li><p class="fa fa-check"></p> Wijzigen en toevoegen van beeldmateriaal</li>
+                            </ul>
+                            <a href="#">Meer informatie</a>
                         </div>
                     </div>
                 </div>
@@ -124,8 +129,9 @@ require_once __DIR__ . '/header.php'
             <div class="row">
                 <div class="col-12">
                     <div class="area-heading">
-                        <h4>Find Informative Answer</h4>
-                        <p>Divide the May unto bearing land the it fruitful likeness hath hath made you and after <br>fish unto form unto begining tour play barney</p>
+                        <h4>Vragen over VisionaryPartners?</h4>
+                        <p>Divide the May unto bearing land the it fruitful likeness hath hath made you and after <br>fish
+                            unto form unto begining tour play barney</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-6">
@@ -134,16 +140,20 @@ require_once __DIR__ . '/header.php'
                         <div class="card">
                             <div class="card-header" id="headingOne">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Who do I contact for press related inquiries?
+                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Hoe kom ik in contact met VisionaryPartners?
                                     </button>
 
                                 </h5>
                             </div>
 
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                 data-parent="#accordionExample">
                                 <div class="card-body">
-                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in deep in open upon.
+                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw
+                                    fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in
+                                    deep in open upon.
                                 </div>
                             </div>
                         </div>
@@ -151,14 +161,19 @@ require_once __DIR__ . '/header.php'
                         <div class="card">
                             <div class="card-header" id="headingTwo">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Why is this course relevant today?
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                        Is mijn site beveiligd?
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                 data-parent="#accordionExample">
                                 <div class="card-body">
-                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in deep in open upon.
+                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw
+                                    fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in
+                                    deep in open upon.
                                 </div>
                             </div>
                         </div>
@@ -166,14 +181,19 @@ require_once __DIR__ . '/header.php'
                         <div class="card">
                             <div class="card-header" id="headingThree">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        How many people will be in the workshop?
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                        Hoelang duurt het voordat mijn site/app af is?
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                 data-parent="#accordionExample">
                                 <div class="card-body">
-                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in deep in open upon.
+                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw
+                                    fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in
+                                    deep in open upon.
                                 </div>
                             </div>
                         </div>
@@ -181,14 +201,19 @@ require_once __DIR__ . '/header.php'
                         <div class="card">
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        What other workshop dates are available?
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour">
+                                        Wat nou als ik iets specifieks wil aanpassen aan mijn website?
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                 data-parent="#accordionExample">
                                 <div class="card-body">
-                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in deep in open upon.
+                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw
+                                    fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in
+                                    deep in open upon.
                                 </div>
                             </div>
                         </div>
@@ -196,14 +221,19 @@ require_once __DIR__ . '/header.php'
                         <div class="card">
                             <div class="card-header" id="headingFive">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        How many people will be in the workshop?
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseFive" aria-expanded="false"
+                                            aria-controls="collapseFive">
+                                        Krijg ik gratis help bij mijn product?
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                 data-parent="#accordionExample">
                                 <div class="card-body">
-                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in deep in open upon.
+                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw
+                                    fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in
+                                    deep in open upon.
                                 </div>
                             </div>
                         </div>
@@ -217,16 +247,20 @@ require_once __DIR__ . '/header.php'
                         <div class="card">
                             <div class="card-header" id="headingSix">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                                        Who do I contact for press related inquiries?
+                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                        Zijn de prijzen vastgesteld?
                                     </button>
 
                                 </h5>
                             </div>
 
-                            <div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordionExample2">
+                            <div id="collapseSix" class="collapse show" aria-labelledby="headingSix"
+                                 data-parent="#accordionExample2">
                                 <div class="card-body">
-                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in deep in open upon.
+                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw
+                                    fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in
+                                    deep in open upon.
                                 </div>
                             </div>
                         </div>
@@ -234,14 +268,19 @@ require_once __DIR__ . '/header.php'
                         <div class="card">
                             <div class="card-header" id="headingSeven">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                        Why is this course relevant today?
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseSeven" aria-expanded="false"
+                                            aria-controls="collapseSeven">
+                                        Kan ik maandelijks aanpassingen doorgeven die verwerkt <br> worden voor mijn product?
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample2">
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                                 data-parent="#accordionExample2">
                                 <div class="card-body">
-                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in deep in open upon.
+                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw
+                                    fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in
+                                    deep in open upon.
                                 </div>
                             </div>
                         </div>
@@ -249,14 +288,19 @@ require_once __DIR__ . '/header.php'
                         <div class="card">
                             <div class="card-header" id="headingEight">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                        How many people will be in the workshop?
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseEight" aria-expanded="false"
+                                            aria-controls="collapseEight">
+                                        Maken wij logos?
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample2">
+                            <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
+                                 data-parent="#accordionExample2">
                                 <div class="card-body">
-                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in deep in open upon.
+                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw
+                                    fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in
+                                    deep in open upon.
                                 </div>
                             </div>
                         </div>
@@ -264,14 +308,19 @@ require_once __DIR__ . '/header.php'
                         <div class="card">
                             <div class="card-header" id="headingNine">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                        What other workshop dates are available?
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseNine" aria-expanded="false"
+                                            aria-controls="collapseNine">
+                                        Is het mogelijk om een zakelijke mail te krijgen?
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample2">
+                            <div id="collapseNine" class="collapse" aria-labelledby="headingNine"
+                                 data-parent="#accordionExample2">
                                 <div class="card-body">
-                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in deep in open upon.
+                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw
+                                    fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in
+                                    deep in open upon.
                                 </div>
                             </div>
                         </div>
@@ -279,14 +328,19 @@ require_once __DIR__ . '/header.php'
                         <div class="card">
                             <div class="card-header" id="headingTen">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                        How many people will be in the workshop?
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseTen" aria-expanded="false"
+                                            aria-controls="collapseTen">
+                                        Kan ik mijn geld terug krijgen als ik van gedachte verander?
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample2">
+                            <div id="collapseTen" class="collapse" aria-labelledby="headingTen"
+                                 data-parent="#accordionExample2">
                                 <div class="card-body">
-                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in deep in open upon.
+                                    Great day without sixth a lesser beginning. Their thing abundantly air moving saw
+                                    fruitful lesser god. Sea abundantly blessed life set. Land. Lights divided man in
+                                    deep in open upon.
                                 </div>
                             </div>
                         </div>
@@ -296,102 +350,6 @@ require_once __DIR__ . '/header.php'
             </div>
         </div>
     </section>
-    <!--================ End Faq Area =================-->
-
-
-
- <!-- ================ start footer Area ================= -->
-    <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                    <h4>About Us</h4>
-                    <p>Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open</p>
-                    <div class="footer-logo">
-                        <img src="img/logo.png" alt="">
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                    <h4>Contact Info</h4>
-                    <div class="footer-address">
-                        <p>Address :Your address goes
-                        here, your demo address.</p>
-                        <span>Phone : +8880 44338899</span>
-                        <span>Email : info@colorlib.com</span>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                    <h4>Important Link</h4>
-                    <ul>
-                        <li><a href="#">WHMCS-bridge</a></li>
-                        <li><a href="#">Search Domain</a></li>
-                        <li><a href="#">My Account</a></li>
-                        <li><a href="#">Shopping Cart</a></li>
-                        <li><a href="#">Our Shop</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-8 mb-4 mb-xl-0 single-footer-widget">
-                    <h4>Newsletter</h4>
-                    <p>Heaven fruitful doesn't over lesser in days. Appear creeping seasons deve behold bearing days open</p>
-
-                    <div class="form-wrap" id="mc_embed_signup">
-                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                        method="get">
-                        <div class="input-group">
-                            <input type="email" class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '">
-                            <div class="input-group-append">
-                                <button class="btn click-btn" type="submit">
-                                    <i class="fab fa-telegram-plane"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div style="position: absolute; left: -5000px;">
-                            <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-                        </div>
-
-                        <div class="info"></div>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-        <div class="footer-bottom row align-items-center text-center text-lg-left no-gutters">
-            <p class="footer-text m-0 col-lg-8 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-            <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
-                <a href="#"><i class="ti-facebook"></i></a>
-                <a href="#"><i class="ti-twitter-alt"></i></a>
-                <a href="#"><i class="ti-dribbble"></i></a>
-                <a href="#"><i class="ti-linkedin"></i></a>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- ================ End footer Area ================= -->
-
-
-
-
-
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/jquery-2.2.4.min.js"></script>
-<script src="js/popper.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-<script src="js/jquery.ajaxchimp.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/mail-script.js"></script>
-<script src="js/contact.js"></script>
-<script src="js/jquery.form.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/mail-script.js"></script>
-<script src="js/theme.js"></script>
-</body>
-</html>
+    </body>
+    </html>
+<?php include_once "footer.php" ?>
