@@ -35,23 +35,23 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Vul je naam in dat maakt het wat persoonlijker?",
+                    minlength: "Je naam moet minimaal 2 tekens lang zijn!s"
                 },
                 subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
+                    required: "Met een onderwerp kunnen wij u gemakkelijker helpen",
+                    minlength: "Je onderwerp moet minimaal 4 tekens lang zijn!"
                 },
                 number: {
                     required: "come on, you have a number, don't you?",
                     minlength: "your Number must consist of at least 5 characters"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "Zonder email kunnen wij u moeilijk bereiken"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    required: "Het bericht mag niet leeg zijn...helaas.",
+                    minlength: "Vul je verhaal iets meer aan. Hierdoor kunnen wij u gemakkelijker helpen."
                 }
             },
             submitHandler: function(form) {

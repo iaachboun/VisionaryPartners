@@ -29,7 +29,7 @@ require_once __DIR__ . '/header.php'
 
         <div class="row">
             <div class="col-12">
-                <h2 class="contact-title">Get in Touch</h2>
+                <h2 class="contact-title">Bereik ons</h2>
             </div>
             <div class="col-lg-8">
                 <form class="form-contact contact_form" action="../contact_process.php" method="post" id="contactForm"
@@ -38,30 +38,30 @@ require_once __DIR__ . '/header.php'
                         <div class="col-12">
                             <div class="form-group">
                                 <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
-                                          placeholder="Enter Message"></textarea>
+                                          placeholder="Vul een bericht in"></textarea>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <input class="form-control" name="name" id="name" type="text"
-                                       placeholder="Enter your name">
+                                       placeholder="Naam">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <input class="form-control" name="email" id="email" type="email"
-                                       placeholder="Enter email address">
+                                       placeholder="E-mail">
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-group">
                                 <input class="form-control" name="subject" id="subject" type="text"
-                                       placeholder="Enter Subject">
+                                       placeholder="Onderwerp">
                             </div>
                         </div>
                     </div>
                     <div class="form-group mt-3">
-                        <button type="submit" class="button button-contactForm">Send Message</button>
+                        <button type="submit" class="button button-contactForm" style="width: 100%">Verstuur bericht</button>
                     </div>
                 </form>
 
@@ -90,6 +90,15 @@ require_once __DIR__ . '/header.php'
                         <p>Stuur ons een bericht!</p>
                     </div>
                 </div>
+
+                <div class="media contact-info">
+                    <span class="contact-info__icon"><i class="fa-solid fa-phone"></i></span>
+                    <div class="media-body">
+                        <h3>06-12345678</h3>
+                        <p>Of bel ons</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -105,8 +114,8 @@ require_once __DIR__ . '/header.php'
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="fas fa-times"></i>
                 </button>
-                <h2>Thank you</h2>
-                <p>Your message is successfully sent...</p>
+                <h2>Bedankt</h2>
+                <p>Je bericht is met succes verzonden!</p>
             </div>
         </div>
     </div>
@@ -122,7 +131,7 @@ require_once __DIR__ . '/header.php'
                     <i class="fas fa-times"></i>
                 </button>
                 <h2>Sorry !</h2>
-                <p> Something went wrong </p>
+                <p> Er is iets verkeerd gegaan </p>
             </div>
         </div>
     </div>
