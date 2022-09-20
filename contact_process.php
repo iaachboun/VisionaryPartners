@@ -16,7 +16,7 @@ try {
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
-    $number = $_REQUEST['number'];
+//    $number = $_REQUEST['number'];
     $cmessage = $_REQUEST['message'];
 
     //Server settings
@@ -37,7 +37,7 @@ try {
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = $_POST['naamContact'] . " heeft aangemeld voor contact.";
+    $mail->Subject = $_POST['name'] . " heeft aangemeld voor contact.";
     $mail->Body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
     $mail->Body .= "<table style='width: 100%;'>";
     $mail->Body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
