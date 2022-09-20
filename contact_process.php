@@ -12,7 +12,7 @@ require 'vendor/PHPMailer/phpmailer/src/SMTP.php';
 $mail = new PHPMailer(true);
 
 try {
-    $to = "ili.aachboun1@gmail.com";
+    $to = "info@visionarypartners.nl";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -22,7 +22,7 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host = 'mail.mijndomein.nl';                     //Set the SMTP server to send through
+    $mail->Host = 'https://emailmg.mydomain.com/roundcube';                     //Set the SMTP server to send through
     $mail->SMTPAuth = true;                                   //Enable SMTP authentication
     $mail->Username = 'info@visionarypartners.nl';                     //SMTP username
     $mail->Password = 'bTK*nX5x^afylz71';                               //SMTP password
@@ -32,7 +32,7 @@ try {
     //Recipients
     $mail->setFrom('info@visionarypartners.nl', 'VisionaryPartners.nl');
     $mail->addAddress('info@visionarypartners.nl', 'VisionaryPartners.nl');     //Add a recipient
-    $mail->addReplyTo('info@example.com', 'Information');
+    $mail->addReplyTo('info@visionarypartners.nl', 'Information');
 
 
     //Content
