@@ -22,7 +22,7 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host = 'https://emailmg.mydomain.com/roundcube';                     //Set the SMTP server to send through
+    $mail->Host = 'visionarypartners.nl';                     //Set the SMTP server to send through
     $mail->SMTPAuth = true;                                   //Enable SMTP authentication
     $mail->Username = 'info@visionarypartners.nl';                     //SMTP username
     $mail->Password = 'bTK*nX5x^afylz71';                               //SMTP password
