@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="https://kit.fontawesome.com/a6fbdbdce9.js" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='js/offerte.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 </head>
 <body>
 

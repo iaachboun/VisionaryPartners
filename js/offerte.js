@@ -115,7 +115,7 @@ $(document).ready(function () {
     var current_fs, next_fs, previous_fs;
 
     $(".next").click(function () {
-
+        console.log("werk aub")
         str1 = "next1";
         str2 = "next2";
         str3 = "next3";

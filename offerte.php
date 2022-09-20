@@ -19,10 +19,8 @@ require_once __DIR__ . '/header.php'
     <section class="offerte-area">
         <div class="container">
             <div class="card b-0">
-                <h3 class="heading">Request a Quote</h3>
-                <p class="desc">Fill out the form or call <span class="yellow-text">123 456 7891</span><br>to
-                    start
-                    protecting your business today!</p>
+                <h3 class="heading">Vraag een offerte aan</h3>
+                <p class="desc">Vul het formulier hieronder in of neem contact op voor overige vragen!</p>
                 <ul id="progressbar" class="text-center">
                     <li class="active step0" id="step1"></li>
                     <li class="step0" id="step2"></li>
@@ -31,31 +29,38 @@ require_once __DIR__ . '/header.php'
                 </ul>
                 <fieldset class="show">
                     <div class="form-card">
-                        <h5 class="sub-heading">Select Service(s)</h5>
+                        <h5 class="sub-heading">Selecteer plan(en)</h5>
                         <div class="row px-1 radio-group">
                             <div class="card-block text-center radio selected">
-                                <div class="image-icon"><img class="icon icon1"
-                                                             src="https://i.imgur.com/vZxfo9x.png">
+                                <div class="image-icon">
+                                    <i class="fa-solid fa-shop" style="font-size: 6pc;"></i>
+<!--                                    <img class="icon icon1" src="https://i.imgur.com/vZxfo9x.png">-->
                                 </div>
-                                <p class="sub-desc">One time paper cleanout</p>
+                                <p class="sub-desc">E-commerce</p>
                             </div>
                             <div class="card-block text-center radio">
-                                <div class="image-icon"><img class="icon icon1 fit-image"
-                                                             src="https://i.imgur.com/HnX40f4.png"></div>
-                                <p class="sub-desc">Shredding service on a regular schedule</p>
+                                <div class="image-icon">
+                                    <i class="fa-solid fa-file" style="font-size: 6pc;"></i>
+<!--                                    <img class="icon icon1 fit-image" src="https://i.imgur.com/HnX40f4.png">-->
+                                </div>
+                                <p class="sub-desc">Website</p>
                             </div>
                             <div class="card-block text-center radio">
-                                <div class="image-icon"><img class="icon icon1 fit-image"
-                                                             src="https://i.imgur.com/ynKYPkk.png"></div>
-                                <p class="sub-desc">Hard Drive destruction</p>
+                                <div class="image-icon">
+                                    <i class="fa-solid fa-mobile-screen" style="font-size: 6pc;"></i>
+<!--                                    <img class="icon icon1 fit-image" src="https://i.imgur.com/ynKYPkk.png">-->
+                                </div>
+                                <p class="sub-desc">App</p>
                             </div>
                             <div class="card-block text-center radio">
-                                <div class="image-icon"><img class="icon icon1 fit-image"
-                                                             src="https://i.imgur.com/6qK7u8Q.png"></div>
-                                <p class="sub-desc">Other Material destruction</p>
+                                <div class="image-icon"><i class="fa-solid fa-database" style="font-size: 6pc;"></i>
+<!--                                    <img class="icon icon1 fit-image"-->
+<!--                                                             src="https://i.imgur.com/6qK7u8Q.png">-->
+                                </div>
+                                <p class="sub-desc">Hosting / onderhoud</p>
                             </div>
                         </div>
-                        <button id="next1" class="btn-block btn-primary mt-3 mb-1 next">NEXT<span
+                        <button id="next1" class="btn-block btn-primary mt-3 mb-1 next">Volgende<span
                                     class="fa fa-long-arrow-right"></span></button>
                     </div>
                 </fieldset>
