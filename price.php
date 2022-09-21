@@ -101,7 +101,7 @@ require_once __DIR__ . '/header.php'
                         </div>
                         <div class="single-pricing-content">
                             <h5>Hosting/ Onderhoud</h5>
-                            <h4> €20<span class="currency_line">/</span><span>month</span></h4>
+                            <h4><span>vanaf</span> €20<span class="currency_line">/</span><span>month</span></h4>
                             <ul>
                                 <li><p class="fa fa-check"></p> 99.9% uptime</li>
                                 <li><p class="fa fa-check"></p> Onbeperkt dataverkeer</li>
