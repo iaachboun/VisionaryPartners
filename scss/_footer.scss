@@ -173,5 +173,14 @@
 	}
 	.footer-bottom {
 		margin-top: 35px;
+		padding: 23px !important;
+	}
+}
+
+.footer-area {
+	padding: 0 !important;
+
+	.footer-bottom {
+		margin: 0 !important;
 	}
 }

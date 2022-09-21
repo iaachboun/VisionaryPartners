@@ -94,7 +94,7 @@ require_once __DIR__ . '/header.php'
                 <div class="media contact-info">
                     <span class="contact-info__icon"><i class="fa-solid fa-phone"></i></span>
                     <div class="media-body">
-                        <h3>06-12345678</h3>
+                        <h3>06-87750506</h3>
                         <p>Of bel ons</p>
                     </div>
                 </div>
