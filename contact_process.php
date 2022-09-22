@@ -79,10 +79,10 @@ $message = "
 <table>
 <tr>
 <th>Naam: {$name}</th>
+<th>Email: {$from}</th>
 </tr>
 <tr>
-<td>Onderwerp: {$subject}</td>
-<td>Bericht: ${cmessage}</td>
+<p>Bericht: ${cmessage}</p>
 </tr>
 </table>
 </body>
