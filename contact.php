@@ -86,7 +86,7 @@ require_once __DIR__ . '/header.php'
                 <div class="media contact-info">
                     <span class="contact-info__icon"><i class="ti-email"></i></span>
                     <div class="media-body">
-                        <h3><a href="mailto:support@colorlib.com">info@visionarpartner.nl</a></h3>
+                        <h3><a href="mailto:support@visionarypartners.nl">support@visionarpartner.nl</a></h3>
                         <p>Stuur ons een bericht!</p>
                     </div>
                 </div>

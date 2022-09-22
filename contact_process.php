@@ -75,16 +75,11 @@ $message = "
 <title>Contact formulier</title>
 </head>
 <body>
-<p>Deze mail komt vanaf onze contact form!</p>
-<table>
-<tr>
-<th>Naam: {$name}</th>
-<th>Email: {$from}</th>
-</tr>
-<tr>
+<p style='text-align: center'>Deze mail komt vanaf onze contact form!</p>
+<br>
+<span>Naam: {$name}</span>
+<span>Naam: {$from}</span><br>
 <p>Bericht: ${cmessage}</p>
-</tr>
-</table>
 </body>
 </html>
 ";
