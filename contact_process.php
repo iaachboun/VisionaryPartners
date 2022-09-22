@@ -62,24 +62,27 @@
 //?>
 
 <?php
-$to = "info@visionarypartners.nl";
-$subject = "HTML email";
+$to = "support@visionarypartners.nl";
+
+    $from = $_REQUEST['email'];
+    $name = $_REQUEST['name'];
+    $subject = $_REQUEST['subject'];
+    $cmessage = $_REQUEST['message'];
 
 $message = "
 <html>
 <head>
-<title>HTML email</title>
+<title>Contact formulier</title>
 </head>
 <body>
-<p>This email contains HTML Tags!</p>
+<p>Deze mail komt vanaf onze contact form!</p>
 <table>
 <tr>
-<th>Firstname</th>
-<th>Lastname</th>
+<th>Naam: {$name}</th>
 </tr>
 <tr>
-<td>John</td>
-<td>Doe</td>
+<td>Onderwerp: {$subject}</td>
+<td>Bericht: ${cmessage}</td>
 </tr>
 </table>
 </body>
@@ -91,8 +94,7 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
-$headers .= 'From: <webmaster@example.com>' . "\r\n";
-$headers .= 'Cc: myboss@example.com' . "\r\n";
+$headers .= "From: {$from}" . "\r\n";
 
 mail($to,$subject,$message,$headers);
 ?>
