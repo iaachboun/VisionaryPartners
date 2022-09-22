@@ -1,110 +1,62 @@
 <?php
-//use PHPMailer\PHPMailer\PHPMailer;
-//use PHPMailer\PHPMailer\Exception;
-//use PHPMailer\PHPMailer\SMTP;
-//
-//require 'vendor/PHPMailer/phpmailer/src/Exception.php';
-//require 'vendor/PHPMailer/phpmailer/src/PHPMailer.php';
-//require 'vendor/PHPMailer/phpmailer/src/SMTP.php';
-//
-//require 'vendor/autoload.php';
-//
-////Create an instance; passing `true` enables exceptions
-//$mail = new PHPMailer(true);
-//
-//try {
-//    $to = "info@visionarypartners.nl";
-//    $from = $_REQUEST['email'];
-//    $name = $_REQUEST['name'];
-//    $subject = $_REQUEST['subject'];
-////    $number = $_REQUEST['number'];
-//    $cmessage = $_REQUEST['message'];
-//
-//    //Server settings
-//    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-//    $mail->isSMTP();                            //Send using SMTP
-//    $mail->Host = 'visionarypartners.nl';                     //Set the SMTP server to send through
-//    $mail->SMTPAuth = true;                                   //Enable SMTP authentication
-//    $mail->Username = 'info@visionarypartners.nl';                     //SMTP username
-//    $mail->Password = 'bTK*nX5x^afylz71';                               //SMTP password
-//    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-//    $mail->Port = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-//
-//    //Recipients
-//    $mail->setFrom('info@visionarypartners.nl', 'VisionaryPartners.nl');
-//    $mail->addAddress('info@visionarypartners.nl', 'VisionaryPartners.nl');     //Add a recipient
-//    $mail->addReplyTo('info@visionarypartners.nl', 'Information');
-//
-//
-//    //Content
-//    $mail->isHTML(true);                                  //Set email format to HTML
-//    $mail->Subject = $_POST['name'] . " heeft aangemeld voor contact.";
-//    $mail->Body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
-//    $mail->Body .= "<table style='width: 100%;'>";
-//    $mail->Body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
-//    $mail->Body .= "<a href='visionarypartners.nl'><img src='img/logo/logoIcon.png' alt=''></a><br><br>";
-//    $mail->Body .= "</td></tr></thead><tbody><tr>";
-//    $mail->Body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
-//    $mail->Body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
-//    $mail->Body .= "</tr>";
-//    $mail->Body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$subject}</td></tr>";
-//    $mail->Body .= "<tr><td></td></tr>";
-//    $mail->Body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
-//    $mail->Body .= "</tbody></table>";
-//    $mail->Body .= "</body></html>";
-//
-//    $mail->send();
-////    header('location: /contact.php');
-//    echo 'Bericht is verstuurd!';
-//} catch (Exception $e) {
-//    echo "Bericht kon niet verstuurd worden!: {$mail->ErrorInfo}";
-//}
-//?>
-
-<?php
-//Import PHPMailer classes into the global namespace
-//These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\SMTP;
 
-//Load Composer's autoloader
+require 'vendor/PHPMailer/phpmailer/src/Exception.php';
+require 'vendor/PHPMailer/phpmailer/src/PHPMailer.php';
+require 'vendor/PHPMailer/phpmailer/src/SMTP.php';
+
 require 'vendor/autoload.php';
 
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
 try {
+    $to = "info@visionarypartners.nl";
+    $from = $_REQUEST['email'];
+    $name = $_REQUEST['name'];
+    $subject = $_REQUEST['subject'];
+//    $number = $_REQUEST['number'];
+    $cmessage = $_REQUEST['message'];
+
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-    $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'visionarypartners.nl';                     //Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'info@visionarypartners.nl';                     //SMTP username
-    $mail->Password   = 'bTK*nX5x^afylz71';                               //SMTP password
+    $mail->isSMTP();                            //Send using SMTP
+    $mail->Host = 'visionarypartners.nl';                     //Set the SMTP server to send through
+    $mail->SMTPAuth = true;                                   //Enable SMTP authentication
+    $mail->Username = 'info@visionarypartners.nl';                     //SMTP username
+    $mail->Password = 'bTK*nX5x^afylz71';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+    $mail->Port = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('info@visionarypartners.nl', 'Mailer');
-    $mail->addAddress('joe@example.net', 'Joe User');     //Add a recipient
-    $mail->addAddress('ellen@example.com');               //Name is optional
-    $mail->addReplyTo('info@example.com', 'Information');
-    $mail->addCC('cc@example.com');
-    $mail->addBCC('bcc@example.com');
+    $mail->setFrom('info@visionarypartners.nl', 'VisionaryPartners.nl');
+    $mail->addAddress('info@visionarypartners.nl', 'VisionaryPartners.nl');     //Add a recipient
+    $mail->addReplyTo('info@visionarypartners.nl', 'Information');
 
-    //Attachments
-    $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-    $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Here is the subject';
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $mail->Subject = $_POST['name'] . " heeft aangemeld voor contact.";
+    $mail->Body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
+    $mail->Body .= "<table style='width: 100%;'>";
+    $mail->Body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
+    $mail->Body .= "<a href='visionarypartners.nl'><img src='img/logo/logoIcon.png' alt=''></a><br><br>";
+    $mail->Body .= "</td></tr></thead><tbody><tr>";
+    $mail->Body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
+    $mail->Body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
+    $mail->Body .= "</tr>";
+    $mail->Body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$subject}</td></tr>";
+    $mail->Body .= "<tr><td></td></tr>";
+    $mail->Body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
+    $mail->Body .= "</tbody></table>";
+    $mail->Body .= "</body></html>";
 
     $mail->send();
-    echo 'Message has been sent';
+//    header('location: /contact.php');
+    echo 'Bericht is verstuurd!';
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    echo "Bericht kon niet verstuurd worden!: {$mail->ErrorInfo}";
 }
+?>
