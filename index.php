@@ -14,7 +14,7 @@ require_once __DIR__ . '/header.php'
                         <p>Met ons hoog opgeleid team staat uw website of app binnen 2 weken online. Ons team bestaat
                             uit HBO-programmeurs met minstens 5 jaar aan ervaring en kennis in hun vak
                             gebied!</p>
-                        <a class="banner_btn" href="contact.php">Neem contact op<i class="ti-arrow-right"></i></a>
+                        <a class="banner_btn" href="contact">Neem contact op<i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -39,7 +39,7 @@ require_once __DIR__ . '/header.php'
                         <p>Bent u van plan om uw werk op een professionele manier te promoten? Laat dan uw
                             website of app maken door <strong>VisionaryPartners</strong>! Vanaf slechts €299 kunt u al
                             een op maat gemaakte website in elkaar laten zetten. </p>
-                        <a href="price.php">Lees meer</a>
+                        <a href="price">Lees meer</a>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ require_once __DIR__ . '/header.php'
                         <p><strong>VisionaryPartners</strong> zorgt ervoor dat uw website onderhouden en online gezet
                             wordt. U komt terecht op onze cloud omgeving met een 99.9% uptime en een hoge beoordeling in
                             de google zoekresultaten.</p>
-                        <a href="price.php">Lees meer</a>
+                        <a href="price">Lees meer</a>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ require_once __DIR__ . '/header.php'
                             webshop de deur uit. Daarom zullen wij bij <strong>VisionaryPartners</strong> ervoor zorgen
                             dat uw webshop makkelijk aanpasbaar is...
                         </p>
-                        <a href="price.php">Lees meer</a>
+                        <a href="price">Lees meer</a>
                     </div>
                 </div>
             </div>

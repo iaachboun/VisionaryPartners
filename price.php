@@ -25,7 +25,7 @@ require_once __DIR__ . '/header.php'
                 <div class="col-12">
                     <div class="area-heading">
                         <h4>Onze pakketten</h4>
-                        <p>Hieronder volgen onze standaard pakketten die we aanbieden. <br>Heb je meer vragen over bepaalde pakketten neem dan <a href="contact.php">contact</a> met ons op.</p>
+                        <p>Hieronder volgen onze standaard pakketten die we aanbieden. <br>Heb je meer vragen over bepaalde pakketten neem dan <a href="contact">contact</a> met ons op.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">

@@ -46,10 +46,10 @@
 
                     <div class="collapse navbar-collapse offset col-11 col-lg-5 mx-auto" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav mx-auto">
-                            <li class="nav-item"><a class="nav-link" href="index.php"><i class="fa fa-home"></i> Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="feature.php"><i class="fa-solid fa-star"></i> Features</a></li>
-                            <li class="nav-item"><a class="nav-link" href="price.php"><i class="fa-solid fa-money-bill-wave"></i> Prijzen</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.php"><i class="fa-solid fa-address-card"></i> Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="feature"><i class="fa-solid fa-star"></i> Features</a></li>
+                            <li class="nav-item"><a class="nav-link" href="price"><i class="fa-solid fa-money-bill-wave"></i> Prijzen</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact"><i class="fa-solid fa-address-card"></i> Contact</a></li>
                         </ul>
                     </div>
 
