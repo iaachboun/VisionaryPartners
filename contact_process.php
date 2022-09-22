@@ -21,7 +21,7 @@ try {
 
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-    $mail->isSMTP();                                            //Send using SMTP
+    $mail->isSMTP();                            //Send using SMTP
     $mail->Host = 'visionarypartners.nl';                     //Set the SMTP server to send through
     $mail->SMTPAuth = true;                                   //Enable SMTP authentication
     $mail->Username = 'info@visionarypartners.nl';                     //SMTP username
@@ -53,7 +53,7 @@ try {
     $mail->Body .= "</body></html>";
 
     $mail->send();
-    header('location: /contact.php');
+//    header('location: /contact.php');
     echo 'Bericht is verstuurd!';
 } catch (Exception $e) {
     echo "Bericht kon niet verstuurd worden!: {$mail->ErrorInfo}";
