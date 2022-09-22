@@ -77,9 +77,9 @@ $message = "
 <body>
 <p style='text-align: center'>Deze mail komt vanaf onze contact form!</p>
 <br>
-<span>Naam: {$name}</span>
-<span>Naam: {$from}</span><br>
-<p>Bericht: ${cmessage}</p>
+<span><strong>Naam: </strong> {$name}</span><br>
+<span><strong>Naam: </strong> {$from}</span><br>
+<p><strong>Bericht: </strong> {$cmessage}</p>
 </body>
 </html>
 ";
