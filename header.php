@@ -29,7 +29,7 @@
             <div class="container">
                 <div class="row header-row">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand mr-0 logo_h col-11 col-lg-4 col-xl-5 d-flex justify-content-center align-items-center" href="index.php">
+                    <a class="navbar-brand mr-0 logo_h col-11 col-lg-4 col-xl-5 d-flex justify-content-center align-items-center" href="index>
                         <img src="img/logo/SiteLogoShort_white.png" alt="Logo small" class="siteLogoSmall d-lg-none">
                         <img src="img/logo/siteLogo_white.svg" alt="Logo large" class="siteLogo d-none d-lg-block">
                     </a>
