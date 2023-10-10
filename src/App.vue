@@ -1,16 +1,33 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <Header/>
+    <Hero/>
+    <Waarom/>
+    <Pakketten/>
+    <Voordelen/>
+    <Specificaties/>
+    <VolgendeStap/>
+    <Contact/>
+    <Footer/>
+  </div>
 </template>
 
+<script setup>
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Waarom from "@/components/Waarom";
+import Pakketten from "@/components/Pakketten";
+import Voordelen from "@/components/Voordelen";
+import Specificaties from "@/components/Specificaties";
+import VolgendeStap from "@/components/VolgendeStap";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+</script>
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+
 }
 </script>
 
