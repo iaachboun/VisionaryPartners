@@ -1,5 +1,5 @@
 <template>
-  $END$
+  <p>yo</p>
 </template>
 
 <script>
