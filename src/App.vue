@@ -1,11 +1,18 @@
 <template>
-  <div class="container">
+  <div class="top-background">
     <Header/>
-    <Hero/>
-    <Waarom/>
-    <Pakketten/>
-    <Voordelen/>
-    <Specificaties/>
+
+    <div class="container m-auto">
+      <Hero class="h-screen -mt-12"/>
+      <Waarom class="h-screen"/>
+      <Pakketten/>
+      <Voordelen/>
+    </div>
+  </div>
+
+  <Specificaties class="specificaties"/>
+
+  <div class="bottom-background">
     <VolgendeStap/>
     <Contact/>
     <Footer/>
@@ -37,11 +44,30 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  margin-top: 60px;
+  margin: 0;
+
 }
 
 body {
-  background: black;
   color: white;
+  background-color: black;
+  margin: 0;
+}
+
+.top-background {
+  margin: 0;
+  background: radial-gradient(circle at 100% 45%, rgba(24, 199, 41, 1), black 70%);
+  height: 400vh;
+}
+
+.specificaties {
+  margin: 0;
+  height: 100vh;
+}
+
+.bottom-background {
+  margin: 0;
+  background: radial-gradient(circle at 60% 100%, rgba(24, 199, 41, 1), black 75%);
+  height: 200vh;
 }
 </style>

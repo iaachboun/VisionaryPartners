@@ -1,5 +1,20 @@
 <template>
-  <p>yo</p>
+  <div class="grid grid-cols-2 flex items-center">
+    <div class="flex-col w-11/12 m-auto">
+      <h1 class="text-7xl text-left">Super Snel Jouw Website Of App <strong class="text-[#D6FF01]">Online!</strong></h1>
+      <p class="text-xl text-left mt-8">Met ons hoog opgeleid team staat uw website of app binnen 2 weken online. Ons
+        team bestaat
+        uit HBO-programmeurs met minstens 5 jaar aan ervaring en kennis in hun vak gebied!</p>
+      <button class="bg-[#D6FF01] text-black py-3 px-5 rounded-full mt-5 font-bold flex items-center">
+        <span>NEEM CONTACT OP</span>
+        <i class="fa-solid fa-arrow-right text-3xl pl-8"></i>
+      </button>
+
+    </div>
+    <div class="flex">
+      <img class="m-auto" src="https://placehold.co/400x600">
+    </div>
+  </div>
 </template>
 
 <script>

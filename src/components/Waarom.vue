@@ -1,5 +1,14 @@
 <template>
-  <p>yo</p>
+  <div class="grid grid-cols-2 flex items-center">
+    <div class="flex-col w-11/12 m-auto">
+      <h1 class="text-4xl text-left"><strong class="text-[#D6FF01]">Waarom </strong>kiezen voor visionary partners?</h1>
+      <p class="text-xl text-left mt-8">Wij hebben gespecialiseerde programmeurs die zich verdiept hebben in het sneller
+        maken van de website. Hierdoor scoort uw website ook beter in de zoekmachines.</p>
+    </div>
+    <div class="flex">
+      <img class="m-auto" src="https://placehold.co/500x350">
+    </div>
+  </div>
 </template>
 
 <script>
