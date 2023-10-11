@@ -1,7 +1,7 @@
 <template>
   <div class="grid grid-cols-2 flex items-center">
     <div class="flex-col w-11/12 m-auto">
-      <h1 class="text-7xl text-left">Super Snel Jouw Website Of App <strong class="text-[#D6FF01]">Online!</strong></h1>
+      <h2 class="text-7xl text-left">Super Snel Jouw Website Of App <strong class="text-[#D6FF01]">Online!</strong></h2>
       <p class="text-xl text-left mt-8">Met ons hoog opgeleid team staat uw website of app binnen 2 weken online. Ons
         team bestaat
         uit HBO-programmeurs met minstens 5 jaar aan ervaring en kennis in hun vak gebied!</p>

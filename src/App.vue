@@ -5,7 +5,7 @@
     <div class="container m-auto">
       <Hero class="h-screen -mt-12"/>
       <Waarom class="h-screen"/>
-      <Pakketten/>
+      <Pakketten class="h-screen"/>
       <Voordelen/>
     </div>
   </div>
