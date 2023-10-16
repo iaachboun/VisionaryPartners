@@ -3,10 +3,10 @@
     <Header/>
 
     <div class="container m-auto">
-      <Hero class="h-screen -mt-12"/>
-      <Waarom class="h-screen"/>
-      <Pakketten class="h-screen"/>
-      <Voordelen/>
+      <Hero class="h-screen sm:-mt-12"/>
+      <Waarom class="min-h-screen"/>
+      <Pakketten class="min-h-screen"/>
+      <Voordelen class="h-screen"/>
     </div>
   </div>
 
@@ -57,12 +57,6 @@ body {
 .top-background {
   margin: 0;
   background: radial-gradient(circle at 100% 45%, rgba(24, 199, 41, 1), black 70%);
-  height: 400vh;
-}
-
-.specificaties {
-  margin: 0;
-  height: 100vh;
 }
 
 .bottom-background {
