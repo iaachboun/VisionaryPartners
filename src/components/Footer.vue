@@ -1,5 +1,7 @@
 <template>
-  <p>yo</p>
+  <div class="pb-8">
+    <p>COPYRIGHT ©2023 VISIONARYPARTNERS </p>
+  </div>
 </template>
 
 <script>

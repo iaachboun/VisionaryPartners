@@ -62,6 +62,5 @@ body {
 .bottom-background {
   margin: 0;
   background: radial-gradient(circle at 60% 100%, rgba(24, 199, 41, 1), black 75%);
-  height: 200vh;
 }
 </style>
