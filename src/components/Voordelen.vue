@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 flex items-center sm:grid-cols-2">
+  <div class="grid grid-cols-1 flex items-center sm:grid-cols-2 px-8 sm:px-0">
     <div class="flex-col w-11/12">
       <h1 class="text-4xl text-left"><strong class="text-[#D6FF01]">Voordelen </strong>van Visionary Partners: Maak Jouw Website Uniek!</h1>
       <p class="text-xl text-left mt-8">Bij Visionary Partners bieden we een reeks voordelen die jouw online

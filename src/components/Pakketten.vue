@@ -1,6 +1,6 @@
 <template>
   <div class="row text-left">
-    <h2 class="text-4xl mt-10 mb-10">Onze Paketten</h2>
+    <h2 class="text-4xl mt-10 mb-10 px-8 sm:px-0">Onze Paketten</h2>
   </div>
 
   <div class="grid grid-cols-1 flex items-center lg:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4 ml-auto">
