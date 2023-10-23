@@ -3,7 +3,7 @@
     <Header/>
 
     <div class="container m-auto">
-      <Hero class="h-screen sm:-mt-12"/>
+      <Hero class="min-h-screen sm:-mt-12"/>
       <Waarom class="min-h-screen"/>
       <Pakketten class="min-h-screen"/>
       <Voordelen class="h-screen"/>
