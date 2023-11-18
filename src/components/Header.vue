@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="sticky top-0 z-50 shadow">
     <div class=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-7 ">
       <a href="https://flowbite.com/" class="flex items-center">
         <span class="self-center text-2xl whitespace-nowrap dark:text-white font-bold">VISIONARY PARTNERS</span>
@@ -14,34 +14,34 @@
         </svg>
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 ">
+        <ul class="text-3xl xl:text-lg flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 ">
           <li>
-            <router-link to="/test"
-                         class="block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
+            <router-link to="#home"
+                         class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
               Home
             </router-link>
           </li>
           <li>
-            <router-link to="/test"
-                         class="block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
-              About
+            <router-link to="#waarom"
+                         class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
+              Wie zijn wij
             </router-link>
           </li>
           <li>
-            <router-link to="/test"
-                         class="block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
-              Services
+            <router-link to="#pakketten"
+                         class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
+              Onze pakketten
             </router-link>
           </li>
           <li>
-            <router-link to="/test"
-                         class="block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
-              Pricing
+            <router-link to="#voordelen"
+                         class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
+              Wat wij bieden
             </router-link>
           </li>
           <li>
-            <router-link to="/test"
-                         class="block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
+            <router-link to="#contact"
+                         class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
               Contact
             </router-link>
           </li>

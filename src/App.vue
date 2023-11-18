@@ -1,16 +1,16 @@
 <template>
+  <Header/>
   <div class="top-background">
-    <Header/>
 
     <div class="container m-auto">
       <Hero class="min-h-screen sm:-mt-12"/>
-      <Waarom class="min-h-screen"/>
+      <Waarom class=""/>
       <Pakketten class="min-h-screen"/>
-      <Voordelen class="h-screen"/>
+      <Voordelen class="min-h-screen"/>
     </div>
   </div>
 
-  <Specificaties class="specificaties"/>
+
 
   <div class="bottom-background">
     <VolgendeStap/>
@@ -25,7 +25,6 @@ import Hero from "@/components/Hero";
 import Waarom from "@/components/Waarom";
 import Pakketten from "@/components/Pakketten";
 import Voordelen from "@/components/Voordelen";
-import Specificaties from "@/components/Specificaties";
 import VolgendeStap from "@/components/VolgendeStap";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -39,6 +38,10 @@ export default {
 </script>
 
 <style>
+body {
+  scroll-behavior: smooth;
+}
+
 #app {
   font-family: 'Poppins', Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

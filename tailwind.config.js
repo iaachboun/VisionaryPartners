@@ -8,6 +8,7 @@ module.exports = {
 
     theme: {
         extend: {
+            scrollBehavior: ['smooth'],
             maxWidth: {
                 'pakket-w': '265px',
             }
