@@ -1,6 +1,6 @@
 <template>
-  <nav class="sticky top-0 z-50 shadow">
-    <div class=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-7 ">
+  <nav :class="navClasses" style="margin-top: -40px;">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-7 ">
       <a href="https://flowbite.com/" class="flex items-center">
         <span class="self-center text-2xl whitespace-nowrap dark:text-white font-bold">VISIONARY PARTNERS</span>
       </a>
@@ -22,7 +22,7 @@
             </router-link>
           </li>
           <li>
-            <router-link to="#waarom"
+            <router-link  to="#waarom"
                          class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
               Wie zijn wij
             </router-link>
@@ -53,10 +53,37 @@
 
 <script>
 export default {
-  name: "Header"
+  name: "Header",
+  data() {
+    return {
+      isTop: true, // Initial state, assuming the page is loaded at the top
+    };
+  },
+  computed: {
+    navClasses() {
+      return {
+        'sticky top-0 z-50 shadow transition-colors duration-300 ease-in-out': true,
+        'bg-transparent': this.isTop,
+        'bg-black bg-opacity-95': !this.isTop,
+      };
+    }
+  },
+  mounted() {
+    this.handleScroll(); // Call it on mount to set the initial state based on current scroll
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      // Check if the scroll position is at the top of the page
+      this.isTop = window.scrollY < 20; // Adjust the value as needed
+    }
+  }
 }
 </script>
 
 <style scoped>
-
+/* Your styles here */
 </style>

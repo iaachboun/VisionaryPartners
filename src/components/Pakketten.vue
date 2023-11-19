@@ -17,8 +17,8 @@
         </p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>24/7 Support</p>
         <hr class="h-px border-0 bg-[#808080]">
-        <p class="mx-6 mt-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€499 - €1499</strong></p>
-        <button class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</button>
+        <p class="mx-6 m-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€499 - €1499</strong></p>
+        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
       </div>
       <div class="bg-black rounded-3xl text-left w-72 m-auto mb-10 h-[546px] cursor-default">
         <p class="pl-7 py-5 font-semibold text-2xl">Website</p>
@@ -34,8 +34,8 @@
         <p class="pl-7 py-4 text-[#808080] select-none text-black">---</p>
 
         <hr class="h-px border-0 bg-[#808080]">
-        <p class="mx-6 mt-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€299</strong></p>
-        <button class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</button>
+        <p class="mx-6 m-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€299</strong></p>
+        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
       </div>
       <div class="bg-black rounded-3xl text-left w-72 m-auto mb-10 h-[546px] cursor-default">
         <p class="pl-7 py-5 font-semibold text-2xl">App</p>
@@ -50,8 +50,8 @@
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>24/7 Support</p>
         <p class="pl-7 py-4 text-[#808080] select-none text-black">---</p>
         <hr class="h-px border-0 bg-[#808080]">
-        <p class="mx-6 mt-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€599</strong></p>
-        <button class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</button>
+        <p class="mx-6 m-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€599</strong></p>
+        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
       </div>
       <div class="bg-black rounded-3xl text-left w-72 m-auto mb-10 h-[546px] cursor-default">
         <p class="pl-7 py-5 font-semibold text-2xl">Hosting/ Onderhoud</p>
@@ -66,9 +66,9 @@
         </p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>24/7 Support</p>
         <hr class="h-px border-0 bg-[#808080]">
-        <p class="mx-6 mt-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€29,99 </strong>/ Month
+        <p class="mx-6 m-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€29,99 </strong>/ Month
         </p>
-        <button class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</button>
+        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
       </div>
     </div>
   </section>

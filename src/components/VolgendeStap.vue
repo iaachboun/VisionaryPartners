@@ -12,9 +12,9 @@
     </div>
 
     <div class="hidden lg:block relative h-full">
-        <button class="absolute right-0 bottom-0 p-8 pr-20 pl-20 bg-black m-10 rounded-2xl">
+        <router-link to="#contact" class="absolute right-0 bottom-0 p-8 pr-20 pl-20 bg-black m-10 rounded-2xl">
           <i class="fa-solid fa-arrow-right-long" style="font-size: 7pc; transform: rotate(45deg)"></i>
-        </button>
+        </router-link>
     </div>
   </div>
 </template>

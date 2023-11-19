@@ -7,6 +7,7 @@ import Hero from "@/components/Hero.vue";
 import Waarom from "@/components/Waarom.vue";
 import Voordelen from "@/components/Voordelen.vue";
 import Pakketten from "@/components/Pakketten.vue";
+import VueScrollactive from 'vue-scrollactive';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -47,4 +48,4 @@ const router = createRouter({
 
 });
 
-createApp(App).use(router).mount('#app')
+createApp(App).use(router).use(VueScrollactive).mount('#app')
