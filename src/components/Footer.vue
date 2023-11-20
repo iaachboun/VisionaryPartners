@@ -1,12 +1,18 @@
 <template>
   <div class="pb-8">
-    <p>COPYRIGHT ©2023 VISIONARYPARTNERS </p>
+    <p>COPYRIGHT ©{{ currentYear }} VISIONARYPARTNERS </p>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Footer"
+  name: "Footer",
+  data() {
+    return {
+      currentYear: new Date().getFullYear()
+    };
+  }
+
 }
 </script>
 
