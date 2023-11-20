@@ -54,7 +54,7 @@
         <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
       </div>
       <div class="bg-black rounded-3xl text-left w-72 m-auto mb-10 h-[546px] cursor-default">
-        <p class="pl-7 py-5 font-semibold text-2xl">Hosting/ Onderhoud</p>
+        <p class="pl-7 py-5 font-semibold text-2xl">Hosting/Onderhoud</p>
         <hr class="h-px border-0 bg-[#808080]">
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>99.9% Uptime</p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Onbeperkt

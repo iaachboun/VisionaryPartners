@@ -1,11 +1,11 @@
 <template>
   <nav :class="navClasses" style="margin-top: -40px;">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-7 ">
-      <a href="https://flowbite.com/" class="flex items-center">
-        <span class="self-center text-2xl whitespace-nowrap dark:text-white font-bold">VISIONARY PARTNERS</span>
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3  sm:p-6">
+      <a href="https://flowbite.com/" class="flex items-center ">
+        <span class="self-center sm:text-2xl  whitespace-nowrap dark:text-white font-bold">VISIONARY PARTNERS</span>
       </a>
       <button data-collapse-toggle="navbar-default" type="button"
-              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-Z rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              class="mr-3 inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-Z rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="navbar-default" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -13,14 +13,9 @@
                 d="M1 1h15M1 7h15M1 13h15"/>
         </svg>
       </button>
+
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul class="text-3xl xl:text-lg flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 ">
-          <li>
-            <router-link to="#home"
-                         class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
-              Home
-            </router-link>
-          </li>
+        <ul class="flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 ">
           <li>
             <router-link  to="#waarom"
                          class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
@@ -36,7 +31,7 @@
           <li>
             <router-link to="#voordelen"
                          class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
-              Wat wij bieden
+              Diensten
             </router-link>
           </li>
           <li>
