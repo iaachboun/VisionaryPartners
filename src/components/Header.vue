@@ -29,13 +29,13 @@
             </router-link>
           </li>
           <li>
-            <router-link to="#voordelen"
+            <router-link to="#start01"
                          class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
               Diensten
             </router-link>
           </li>
           <li>
-            <router-link to="#contact"
+            <router-link to="#con33"
                          class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
               Contact
             </router-link>

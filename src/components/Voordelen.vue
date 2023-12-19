@@ -1,5 +1,5 @@
 <template>
-  <section id="voordelen" class="pt-1">
+  <section id="voordelen" class="pt-9">
     <div class="grid grid-cols-1 flex items-center sm:grid-cols-2 px-8 sm:px-0">
       <div class="flex-col w-11/12">
         <h1 class="text-4xl text-left"><strong class="text-[#D6FF01]">Voordelen </strong>van Visionary Partners: Maak
@@ -8,11 +8,11 @@
           aanwezigheid naar een hoger niveau tillen. Ontdek hoe onze expertise en diensten jou kunnen helpen:</p>
       </div>
       <div class="flex">
-        <img class="ml-auto" src="https://placehold.co/500x350">
+        <img src="@/assets/img/pexels-fauxels-31844181.svg" class="ml-auto w-[600px]">
       </div>
     </div>
 
-    <div class="mx-auto mt-3 md:mt-10">
+    <div class="mx-auto mt-3 md:mt-28">
       <div class="grid grid-cols-1 sm:grid-cols-2">
         <div class="text-left grid grid-cols-12 p-8 sm:p-0 mb-5 mx-auto sm:mx-0">
           <div class="float-left text-4xl col-span-2">

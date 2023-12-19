@@ -2,7 +2,7 @@
   <Header/>
   <div class="top-background">
 
-    <div class="container m-auto">
+    <div class="w-5/6 m-auto">
       <Hero class="min-h-screen sm:-mt-12"/>
       <Waarom class=""/>
       <Pakketten class="min-h-screen"/>

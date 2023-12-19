@@ -5,7 +5,7 @@
     </div>
 
     <div class="grid grid-cols-1 flex items-center lg:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4 ml-auto">
-      <div class="bg-black rounded-3xl text-left w-72 m-auto mb-10 h-[546px] cursor-default">
+      <div class="bg-black rounded-3xl text-left w-70 m-auto mb-10 h-[546px] cursor-default">
         <p class="pl-7 py-5 font-semibold text-2xl">E-Commerce</p>
         <hr class="h-px border-0 bg-[#808080]">
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>CMS Systeem</p>
@@ -20,7 +20,7 @@
         <p class="mx-6 m-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€499 - €1499</strong></p>
         <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
       </div>
-      <div class="bg-black rounded-3xl text-left w-72 m-auto mb-10 h-[546px] cursor-default">
+      <div class="bg-black rounded-3xl text-left w-70 m-auto mb-10 h-[546px] cursor-default">
         <p class="pl-7 py-5 font-semibold text-2xl">Website</p>
         <hr class="h-px border-0 bg-[#808080]">
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Zakelijke Mail</p>
@@ -37,7 +37,7 @@
         <p class="mx-6 m-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€299</strong></p>
         <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
       </div>
-      <div class="bg-black rounded-3xl text-left w-72 m-auto mb-10 h-[546px] cursor-default">
+      <div class="bg-black rounded-3xl text-left w-70 m-auto mb-10 h-[546px] cursor-default">
         <p class="pl-7 py-5 font-semibold text-2xl">App</p>
         <hr class="h-px border-0 bg-[#808080]">
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Maatwerk</p>
@@ -53,7 +53,7 @@
         <p class="mx-6 m-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€599</strong></p>
         <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
       </div>
-      <div class="bg-black rounded-3xl text-left w-72 m-auto mb-10 h-[546px] cursor-default">
+      <div class="bg-black rounded-3xl text-left w-70 m-auto mb-10 h-[546px] cursor-default">
         <p class="pl-7 py-5 font-semibold text-2xl">Hosting/Onderhoud</p>
         <hr class="h-px border-0 bg-[#808080]">
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>99.9% Uptime</p>
@@ -68,7 +68,7 @@
         <hr class="h-px border-0 bg-[#808080]">
         <p class="mx-6 m-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€29,99 </strong>/ Month
         </p>
-        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
+        <router-link id="start01" to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
       </div>
     </div>
   </section>

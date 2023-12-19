@@ -9,7 +9,7 @@
           maken van de website. Hierdoor scoort uw website ook beter in de zoekmachines.</p>
       </div>
       <div class="flex">
-        <img class="ml-auto" src="https://placehold.co/500x350">
+        <img src="@/assets/img/pexels-lukas-5740711.svg" class="ml-auto w-[600px]">
       </div>
     </div>
   </section>
