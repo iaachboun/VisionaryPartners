@@ -1,5 +1,7 @@
 import {createApp} from 'vue'
 import App from './App.vue'
+import VueTypedJs from 'vue3-typed-js'
+
 // router/index.js or where your Vue Router is configured
 import {createRouter, createWebHistory} from 'vue-router'
 import Contact from "@/components/Contact.vue";
@@ -48,4 +50,4 @@ const router = createRouter({
 
 });
 
-createApp(App).use(router).use(VueScrollactive).mount('#app')
+createApp(App).use(router).use(VueScrollactive).use(VueTypedJs).mount('#app')
