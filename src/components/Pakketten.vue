@@ -66,7 +66,7 @@
         </p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>24/7 Support</p>
         <hr class="h-px border-0 bg-[#808080]">
-        <p class="mx-6 m-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€29,99 </strong>/ Month
+        <p class="mx-6 m-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€29,99 </strong>/ per maand
         </p>
         <router-link id="start01" to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
       </div>

@@ -35,7 +35,7 @@
             </router-link>
           </li>
           <li>
-            <router-link to="#con33"
+            <router-link to="#contact"
                          class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-[#808080] hover:text-[#D6FF01] md:p-0 cursor-pointer">
               Contact
             </router-link>

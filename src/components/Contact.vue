@@ -1,8 +1,8 @@
 <template>
   <section id="contact">
-    <div class="container mx-auto lg:grid grid-cols-1 flex flex-col items-center sm:grid-cols-2 mt-2 sm:mt-80 mb-36">
-      <div class="lg:w-3/4 m-10">
-        <h1 class="max-w-[300px] text-7xl lg:text-9xl  font-bold text-left">Let's Get Started.</h1>
+    <div class="container mx-auto lg:grid grid-cols-1 flex flex-col items-center sm:grid-cols-2 mt-2 sm:mt-80 mb-16 sm:mb-60">
+      <div class="sm:w-5/6 m-10">
+        <h1 class="sm:max-w-[300px] text-8xl sm:text-9xl font-bold text-left">Let's Get Started.</h1>
       </div>
       <div>
         <form @submit.prevent="sendEmail" class="sm:w-5/6 mx-auto">
@@ -11,23 +11,21 @@
                    class="block py-2.5 px-0 w-full text-2xl text-white bg-transparent border-0 border-b-2 border-white appearance-none dark:text-white dark:border-white dark:focus:border-white focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                    placeholder=" " required/>
             <label for="floating_name"
-                   class="peer-focus:font-medium absolute text-xl text-white duration-300 transform -translate-y-8 scale-90 top-2 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-90 peer-focus:-translate-y-8">Full
-              name</label>
+                   class="peer-focus:font-medium absolute text-xl text-white duration-300 transform -translate-y-8 scale-90 top-2 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-90 peer-focus:-translate-y-8">Naam
+              </label>
           </div>
           <div class="relative z-0 w-full mb-6 group text-left">
             <input type="email" name="floating_email" id="floating_email" v-model="from_email"
                    class="block py-2.5 px-0 w-full text-2xl text-white bg-transparent border-0 border-b-2 border-white appearance-none dark:text-white dark:border-white dark:focus:border-white focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                    placeholder=" " required/>
             <label for="floating_email"
-                   class="peer-focus:font-medium absolute text-xl text-white duration-300 transform -translate-y-8 scale-90 top-2 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-90 peer-focus:-translate-y-8">Email
-              address</label>
+                   class="peer-focus:font-medium absolute text-xl text-white duration-300 transform -translate-y-8 scale-90 top-2 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-90 peer-focus:-translate-y-8">Email</label>
           </div>
           <div class="relative z-0 w-full mb-6 group text-left">
-            <label for="message" class="block mb-2 text-2xl font-medium text-gray-900 dark:text-white">Your
-              message</label>
+            <label for="message" class="block mb-2 text-2xl font-medium text-gray-900 dark:text-white">Je bericht</label>
             <textarea id="message" rows="4" v-model="message"
                       class="block p-2.5 w-full text-xl text-white bg-transparent rounded-lg border border-white focus:ring-white focus:border-white dark:bg-transparant dark:border-white dark:placeholder-white dark:text-white dark:focus:ring-white dark:focus:border-white"
-                      placeholder="Leave a comment..." required></textarea>
+                      placeholder="Laat een bericht achter" required></textarea>
           </div>
           <button type="submit" class="bg-[#D6FF01] text-black py-3 px-5 rounded-full mt-5 font-bold flex items-center">
             <span>NEEM CONTACT OP</span>
