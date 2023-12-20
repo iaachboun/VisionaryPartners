@@ -10,6 +10,7 @@
             :typeSpeed="25"
             :backSpeed="120"
             :loop="true"
+            :loop-count="4"
             :backDelay="3000"
         >
           <!-- The element where the typed text will appear -->
