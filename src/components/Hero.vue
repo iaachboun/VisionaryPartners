@@ -1,10 +1,10 @@
 <template>
   <div class="grid grid-cols-1 flex items-center px-8 sm:px-0 sm:grid-cols-2 m-auto w-full pt-10 sm:pt-32">
-    <div class="flex-col w-11/12">
+    <div class="flex-col">
 <!--      <h2 class="text-5xl sm:text-7xl text-left leading-tight sm:leading-normal font-bold">-->
 <!--        Super Snel Jouw Website Of App <strong class="text-[#D6FF01]">Online!</strong>-->
 <!--      </h2>-->
-      <h2 class="text-5xl sm:text-7xl text-left leading-tight sm:leading-normal font-bold min-h-[350px] typed-header">
+      <h2 class="text-6xl sm:text-7xl text-left leading-tight sm:leading-normal font-bold min-h-[350px] typed-header">
         <VueTyped
             :strings="['test', 'Super snel jouw website of app Online!']"
             :typeSpeed="25"

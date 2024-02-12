@@ -4,7 +4,7 @@
       <div class="sm:w-5/6 m-10">
         <h1 class="sm:max-w-[300px] text-8xl sm:text-9xl font-bold text-left">Let's Get Started.</h1>
       </div>
-      <div>
+      <div class="w-full p-8">
         <form @submit.prevent="sendEmail" class="sm:w-5/6 mx-auto">
           <div class="relative z-0 w-full mb-6 group text-left">
             <input type="text" name="floating_name" id="floating_name" v-model="from_name"

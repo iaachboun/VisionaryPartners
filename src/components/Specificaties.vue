@@ -76,7 +76,7 @@
             06
           </div>
           <div class="col-span-10 lg:w-[425px]">
-            <h3 class="text-4xl mb-2">punctuele Oplevering</h3>
+            <h3 class="text-4xl mb-2">Punctuele Oplevering</h3>
             <p class="font-light text-lg">We beloven dat jouw website op tijd wordt opgeleverd, zoals afgesproken.
               <strong
                   class="text-[#D6FF01]">We regelen alles </strong>

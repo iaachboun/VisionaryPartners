@@ -1,7 +1,6 @@
 <template>
   <Header/>
   <div class="top-background">
-
     <div class="sm:w-5/6 m-auto">
       <Hero class="min-h-screen sm:-mt-12"/>
       <Waarom class=""/>
@@ -11,12 +10,19 @@
   </div>
 
 
-
   <div class="bottom-background">
     <VolgendeStap/>
     <Contact/>
     <Footer/>
   </div>
+
+  <router-link to="#header">
+    <div class="rounded-full fixed right-5 bottom-5 bg-[#D6FF01] text-black shadow-2xl">
+      <div class="h-full text-4xl w-16 py-3">
+        <i class="fa-solid fa-arrow-up"></i>
+      </div>
+    </div>
+  </router-link>
 </template>
 
 <script setup>
@@ -33,7 +39,19 @@ import Footer from "@/components/Footer";
 
 export default {
   name: 'App',
-
+  mounted() {
+    this.handleScroll(); // Call it on mount to set the initial state based on current scroll
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      // Check if the scroll position is at the top of the page
+      this.isTop = window.scrollY < 20; // Adjust the value as needed
+    }
+  }
 }
 </script>
 
