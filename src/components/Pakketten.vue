@@ -1,43 +1,47 @@
 <template>
   <section id="pakketten" class="pt-1">
-    <div class="row text-left">
-      <h2 class="text-4xl mt-10 mb-10 px-8 sm:px-0">Onze Paketten</h2>
+    <div class="row text-left mb-12">
+      <h2 class="text-4xl mt-10 mb-10 px-8 sm:px-0"><strong class="text-[#D6FF01]">Onze</strong> Pakketten</h2>
+      <p class="text-xl px-8 sm:px-0">Ontdek onze diverse pakketten die zijn ontworpen om aan al uw behoeften te voldoen. Of u nu op
+        zoek bent naar een basisoptie of een uitgebreidere service, wij hebben het perfecte pakket voor u.</p>
     </div>
-
     <div class="grid grid-cols-1 flex items-center lg:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4 ml-auto">
-      <div class="bg-black rounded-3xl text-left w-70 m-auto mb-10 h-[546px] cursor-default">
+      <div class="bg-black rounded-3xl text-left w-70 m-auto mb-10 h-[490px] cursor-default">
         <p class="pl-7 py-5 font-semibold text-2xl">E-Commerce</p>
         <hr class="h-px border-0 bg-[#808080]">
-        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>CMS Systeem</p>
-        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Admin Paneel</p>
+        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>CMS systeem</p>
+        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Admin paneel</p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Statistieken</p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Bezorgdienst
-          Integratie</p>
-        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Conversie Gericht
+          integratie</p>
+        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Conversie gericht
         </p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>24/7 Support</p>
         <hr class="h-px border-0 bg-[#808080]">
-        <p class="mx-6 m-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€499 - €1499</strong></p>
-        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
+        <br>
+        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 rounded-xl">START NU
+        </router-link>
       </div>
-      <div class="bg-black rounded-3xl text-left w-70 m-auto mb-10 h-[546px] cursor-default">
+
+      <div class="bg-black rounded-3xl text-left w-70 m-auto mb-10 h-[490px] cursor-default">
         <p class="pl-7 py-5 font-semibold text-2xl">Website</p>
         <hr class="h-px border-0 bg-[#808080]">
-        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Zakelijke Mail</p>
+        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Zakelijke mail</p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Mobiel
-          Geoptimaliseerd</p>
-        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Social Media
-          Integratie</p>
+          geoptimaliseerd</p>
+        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Social media
+          integratie</p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Google
-          Geoptimaliseerd</p>
+          geoptimaliseerd</p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>24/7 Support</p>
         <p class="pl-7 py-4 text-[#808080] select-none text-black">---</p>
 
         <hr class="h-px border-0 bg-[#808080]">
-        <p class="mx-6 m-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€299</strong></p>
-        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
+        <br>
+        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 rounded-xl">START NU
+        </router-link>
       </div>
-      <div class="bg-black rounded-3xl text-left w-70 m-auto mb-10 h-[546px] cursor-default">
+      <div class="bg-black rounded-3xl text-left w-70 m-auto mb-10 h-[490px] cursor-default">
         <p class="pl-7 py-5 font-semibold text-2xl">App</p>
         <hr class="h-px border-0 bg-[#808080]">
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Maatwerk</p>
@@ -50,10 +54,11 @@
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>24/7 Support</p>
         <p class="pl-7 py-4 text-[#808080] select-none text-black">---</p>
         <hr class="h-px border-0 bg-[#808080]">
-        <p class="mx-6 m-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€599</strong></p>
-        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
+        <br>
+        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 rounded-xl">START NU
+        </router-link>
       </div>
-      <div class="bg-black rounded-3xl text-left w-70 m-auto mb-10 h-[546px] cursor-default">
+      <div class="bg-black rounded-3xl text-left w-70 m-auto mb-10 h-[490px] cursor-default">
         <p class="pl-7 py-5 font-semibold text-2xl">Hosting/Onderhoud</p>
         <hr class="h-px border-0 bg-[#808080]">
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>99.9% Uptime</p>
@@ -66,9 +71,9 @@
         </p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>24/7 Support</p>
         <hr class="h-px border-0 bg-[#808080]">
-        <p class="mx-6 m-6 text-[#808080]">Vanaf <strong class="text-white float-right pr-2">€29,99 </strong>/ per maand
-        </p>
-        <router-link id="start01" to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 my-6 rounded-xl">START NU</router-link>
+        <br>
+        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 rounded-xl">START NU
+        </router-link>
       </div>
     </div>
   </section>
