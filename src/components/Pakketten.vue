@@ -45,9 +45,9 @@
         <p class="pl-7 py-5 font-semibold text-2xl">App</p>
         <hr class="h-px border-0 bg-[#808080]">
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Maatwerk</p>
-        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Voor Elk Apparaat
+        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Voor elk apparaat
         </p>
-        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Optimale Snelheid
+        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Optimale snelheid
         </p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Playstore/Appstore
         </p>
@@ -63,11 +63,11 @@
         <hr class="h-px border-0 bg-[#808080]">
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>99.9% Uptime</p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Onbeperkt
-          Dataverkeer</p>
-        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>SSL Certificaat</p>
+          dataverkeer</p>
+        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>SSL certificaat</p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Maandelijkse
-          Back-Ups</p>
-        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Google Optimalisatie
+          back-ups</p>
+        <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>Google optimalisatie
         </p>
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>24/7 Support</p>
         <hr class="h-px border-0 bg-[#808080]">

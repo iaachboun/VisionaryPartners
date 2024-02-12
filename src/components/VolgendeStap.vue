@@ -3,8 +3,8 @@
       class="container mx-auto lg:grid grid-cols-1 flex items-center sm:grid-cols-2 bg-gradient-to-r from-[#3ACD22] to-[#D6FF01] mt-28 mb-40 sm:mb-80 sm:rounded-xl">
     <div class="lg:w-3/4 m-10">
       <div class="m-auto">
-        <h1 class="text-4xl sm:text-5xl  text-left text-black mt-3 font-bold !leading-relaxed"><strong>Klaar
-          Voor De Volgende Stap?</strong></h1>
+        <h1 class="text-5xl sm:text-5xl  text-left text-black mt-3 font-bold !leading-relaxed"><strong>Klaar
+          voor de volgende stap?</strong></h1>
         <p class="text-xl sm:text-2xl text-left mt-8 mb-4 text-black max-w-[530px]">Kies Visionary Partners
           voor een website die niet alleen functioneel en aantrekkelijk is, maar ook perfect aansluit bij jouw unieke
           visie en doelen.</p>

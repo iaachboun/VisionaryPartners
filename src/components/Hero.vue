@@ -6,7 +6,7 @@
 <!--      </h2>-->
       <h2 class="text-6xl sm:text-7xl text-left leading-tight sm:leading-normal font-bold min-h-[350px] typed-header">
         <VueTyped
-            :strings="['test', 'Super snel jouw website of app Online!']"
+            :strings="['test', 'Super snel jouw website of app online!']"
             :typeSpeed="25"
             :backSpeed="120"
             :loop="true"
