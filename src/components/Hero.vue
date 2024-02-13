@@ -4,9 +4,9 @@
 <!--      <h2 class="text-5xl sm:text-7xl text-left leading-tight sm:leading-normal font-bold">-->
 <!--        Super Snel Jouw Website Of App <strong class="text-[#D6FF01]">Online!</strong>-->
 <!--      </h2>-->
-      <h2 class="text-6xl sm:text-7xl text-left leading-tight sm:leading-normal font-bold min-h-[350px] typed-header">
+      <h2 class=" lg:-mt-40 text-6xl sm:text-7xl text-left leading-tight sm:leading-normal font-bold min-h-[350px] typed-header">
         <VueTyped
-            :strings="['test', 'Super snel jouw website of app <div class=`text-[#D6FF01]`>online!</div>']"
+            :strings="['test', 'Super snel jouw website of app online!']"
             :typeSpeed="25"
             :backSpeed="120"
             :loop="true"
