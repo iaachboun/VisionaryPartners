@@ -4,7 +4,7 @@
       <div class="flex-col">
         <h1 class="text-4xl text-left"><strong class="text-[#D6FF01]">Voordelen </strong>van Visionary Partners: Maak
           jouw website uniek!</h1>
-        <p class="text-xl text-left mt-8">Bij Visionary Partners bieden we een reeks voordelen die jouw online
+        <p class="text-xl text-left mt-8 mb-8">Bij Visionary Partners bieden we een reeks voordelen die jouw online
           aanwezigheid naar een hoger niveau tillen. Ontdek hoe onze expertise en diensten jou kunnen helpen:</p>
       </div>
       <div class="flex">

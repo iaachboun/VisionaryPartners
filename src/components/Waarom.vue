@@ -4,7 +4,7 @@
       <div class="flex-col">
         <h1 class="text-4xl text-left"><strong class="text-[#D6FF01]">Waarom </strong>kiezen voor visionary partners?
         </h1>
-        <p class="text-xl text-left mt-8">Wij hebben gespecialiseerde programmeurs die zich verdiept hebben in het
+        <p class="text-xl text-left mt-8 mb-8">Wij hebben gespecialiseerde programmeurs die zich verdiept hebben in het
           sneller
           maken van de website. Hierdoor scoort uw website ook beter in de zoekmachines.</p>
       </div>
