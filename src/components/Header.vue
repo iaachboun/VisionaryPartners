@@ -96,8 +96,8 @@ export default {
 
 .menu-bar {
   position: absolute;
-  width: 100%;
-  height: 4px;
+  width: 80%;
+  height: 2.5px;
   background: #fff;
   left: 0%;
 }
