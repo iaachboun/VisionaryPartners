@@ -22,7 +22,7 @@
       <p class="text-lg sm:text-xl text-left mt-8">Met ons hoog opgeleid team staat uw website of app binnen 2 weken online. Ons
         team bestaat
         uit HBO-programmeurs met minstens 8 jaar aan ervaring en kennis in hun vak gebied!</p>
-      <router-link to="#contact" class="w-fit bg-[#D6FF01] text-black py-3 px-5 rounded-full mt-5 font-bold flex items-center">
+      <router-link to="#contact" class="w-fit bg-[#D6FF01] text-black py-3 px-5 rounded-full mt-5 font-bold flex items-center hover:bg-[#bfe308] transition duration-500 ease-in-out">
         <span>NEEM CONTACT OP</span>
         <i class="fa-solid fa-arrow-right text-3xl pl-8"></i>
       </router-link>

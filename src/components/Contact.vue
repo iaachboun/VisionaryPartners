@@ -27,9 +27,9 @@
                       class="block p-2.5 w-full text-xl text-white bg-transparent rounded-lg border border-white focus:ring-white focus:border-white dark:bg-transparant dark:border-white dark:placeholder-white dark:text-white dark:focus:ring-white dark:focus:border-white"
                       placeholder="Laat een bericht achter" required></textarea>
           </div>
-          <button type="submit" class="bg-[#D6FF01] text-black py-3 px-5 rounded-full mt-5 font-bold flex items-center">
+          <button type="submit" class="bg-[#D6FF01] text-black py-3 px-5 rounded-full mt-5 font-bold flex items-center hover:bg-[#bfe308] transition duration-500 ease-in-out">
             <span>NEEM CONTACT OP</span>
-            <i class="fa-solid fa-arrow-right text-3xl pl-8"></i>
+            <i class="fa-solid fa-arrow-right text-3xl pl-8 hover:translate-x-1 transform transition-transform duration-300 ease-in-out"></i>
           </button>
         </form>
       </div>

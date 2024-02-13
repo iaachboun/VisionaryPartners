@@ -17,8 +17,8 @@
   </div>
 
   <router-link to="#header">
-    <div class="rounded-full fixed right-5 bottom-5 bg-[#D6FF01] text-black shadow-2xl">
-      <div class="h-full text-4xl w-16 py-3">
+    <div class="rounded-full fixed right-5 bottom-5 bg-[#D6FF01] hover:bg-[#bfe308] transition duration-500 ease-in-out text-black shadow-2xl">
+      <div class="h-full text-4xl w-16 py-3 hover-bounce transform transition-transform duration-500 ease-in-out">
         <i class="fa-solid fa-arrow-up"></i>
       </div>
     </div>
@@ -84,4 +84,19 @@ body {
   margin: 0;
   background: radial-gradient(circle at 60% 100%, rgba(24, 199, 41, 1), black 75%);
 }
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px); /* Adjust this value for the bounce height */
+  }
+}
+
+.hover-bounce:hover {
+  animation: bounce 1.0s ease-in-out infinite;
+}
+
+
 </style>

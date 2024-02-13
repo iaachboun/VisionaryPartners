@@ -19,7 +19,7 @@
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>24/7 Support</p>
         <hr class="h-px border-0 bg-[#808080]">
         <br>
-        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 rounded-xl">START NU
+        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 rounded-xl hover:bg-[#bfe308] transition duration-500 ease-in-out">START NU
         </router-link>
       </div>
 
@@ -38,7 +38,7 @@
 
         <hr class="h-px border-0 bg-[#808080]">
         <br>
-        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 rounded-xl">START NU
+        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 rounded-xl hover:bg-[#bfe308] transition duration-500 ease-in-out">START NU
         </router-link>
       </div>
       <div class="bg-black rounded-3xl text-left w-70 m-auto mb-10 h-[490px] cursor-default">
@@ -55,7 +55,7 @@
         <p class="pl-7 py-4 text-[#808080] select-none text-black">---</p>
         <hr class="h-px border-0 bg-[#808080]">
         <br>
-        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 rounded-xl">START NU
+        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 rounded-xl hover:bg-[#bfe308] transition duration-500 ease-in-out">START NU
         </router-link>
       </div>
       <div class="bg-black rounded-3xl text-left w-70 m-auto mb-10 h-[490px] cursor-default">
@@ -72,7 +72,7 @@
         <p class="pl-7 py-4 text-[#808080]"><i class="fa-solid fa-circle-check mr-4 text-white"></i>24/7 Support</p>
         <hr class="h-px border-0 bg-[#808080]">
         <br>
-        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 rounded-xl">START NU
+        <router-link to="#contact" class="p-2 bg-[#D6FF01] text-black font-semibold px-20 mx-6 rounded-xl hover:bg-[#bfe308] transition duration-500 ease-in-out">START NU
         </router-link>
       </div>
     </div>
