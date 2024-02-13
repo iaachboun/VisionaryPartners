@@ -29,7 +29,7 @@
 
     </div>
     <div class="flex mt-5">
-      <img src="@/assets/img/visionarypartnersphone3.0.png" class="m-auto w-[400px] max-w-[80%]">
+      <img src="@/assets/img/visionarypartnersphone3.0.png" class="m-auto w-[400px] max-w-[60%]">
     </div>
   </div>
 </template>

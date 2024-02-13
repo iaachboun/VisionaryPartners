@@ -6,7 +6,7 @@
         <span class="self-center sm:text-2xl  whitespace-nowrap text-[#D6FF01] font-bold">VISIONARY PARTNERS</span>
       </a>
       <button data-collapse-toggle="navbar-default" type="button"
-              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-Z rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-Z rounded-lg md:hidden text-white focus:text-[#D6FF01]"
               aria-controls="navbar-default" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -18,19 +18,20 @@
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul class="flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 ">
           <li>
-            <router-link  to="#waarom"
+            <router-link data-toggle="navbar-default" to="#waarom"
                          class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer">
               Wie zijn wij
             </router-link>
           </li>
           <li>
+
             <router-link to="#pakketten"
                          class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer">
               Onze pakketten
             </router-link>
           </li>
           <li>
-            <router-link to="#start01"
+            <router-link to="#hiddenTab01"
                          class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer">
               Diensten
             </router-link>
