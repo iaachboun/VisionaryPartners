@@ -2,7 +2,7 @@
   <section id="header"/>
   <nav :class="navClasses" style="margin-top: -40px;" id="header">
     <div class=" flex flex-wrap items-center justify-between mx-auto px-8 py-3 sm:px-0 sm:p-6 sm:w-5/6">
-      <a href="https://flowbite.com/" class="flex items-center ">
+      <a href="https://visionarypartners.nl" class="flex items-center ">
         <span class="self-center sm:text-2xl  whitespace-nowrap text-[#D6FF01] font-bold">VISIONARY PARTNERS</span>
       </a>
 
