@@ -20,26 +20,26 @@
         <ul class="flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 ">
           <li>
             <router-link to="#waarom"
-                         class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer">
+                         class="nav-link mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer" :class="{ active: currentActiveSection === 'waaromColor' }">
               Wie zijn wij
             </router-link>
           </li>
           <li>
 
             <router-link to="#pakketten"
-                         class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer">
+                         class="nav-link mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer" :class="{ active: currentActiveSection === 'pakkettenColor' }">
               Onze pakketten
             </router-link>
           </li>
           <li>
             <router-link to="#diensten"
-                         class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer">
+                         class="nav-link mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer" :class="{ active: currentActiveSection === 'voordelenColor' }">
               Diensten
             </router-link>
           </li>
           <li>
             <router-link to="#contact"
-                         class="mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer">
+                         class="nav-link mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer" :class="{ active: currentActiveSection === 'contactColor' }">
               Contact
             </router-link>
           </li>
@@ -50,14 +50,13 @@
 </template>
 
 <script>
-
-
 export default {
   name: "Header",
   data() {
     return {
       isTop: true, // Initial state, assuming the page is loaded at the top
       openMenu: false,
+      currentActiveSection: '', // Add this line to track the current active section
     };
   },
   computed: {
@@ -78,12 +77,26 @@ export default {
   },
   methods: {
     handleScroll() {
-      // Check if the scroll position is at the top of the page
+      // Existing functionality to check the scroll position at the top
       this.isTop = window.scrollY < 20; // Adjust the value as needed
+
+      // New functionality to update the current active section based on scroll position
+      const sections = document.querySelectorAll('section');
+      const scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+
+      for (const section of sections) {
+        const sectionTop = section.offsetTop - 128; // Added a buffer for better transition timing
+        const sectionHeight = section.offsetHeight;
+        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+          this.currentActiveSection = section.id;
+          return; // Exit the loop once the active section is found
+        }
+      }
     }
   }
 }
 </script>
+
 
 <style scoped>
 
@@ -178,6 +191,11 @@ export default {
   left: 0%;
   transform: rotate(-45deg);
   background: #D6FF01;
+}
+
+.nav-link.active {
+  color: #D6FF01;
+  font-weight: bold;
 }
 </style>
 

@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="contactColor">
     <div class="container mx-auto lg:grid grid-cols-1 flex flex-col items-center sm:grid-cols-2 mt-2 mb-16 sm:mb-60">
       <div class="sm:w-5/6 m-10">
         <h1 class="sm:max-w-[300px] text-8xl sm:text-9xl font-bold text-left">Let's Get Started</h1>

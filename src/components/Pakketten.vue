@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-20">
+  <section id="pakkettenColor" class="pb-20">
     <div class="row text-left mb-12">
       <h2 class="text-4xl mt-10 mb-10 px-8 sm:px-0"><strong class="text-[#D6FF01]">Onze</strong> pakketten</h2>
       <p class="text-xl px-8 sm:px-0">Ontdek onze diverse pakketten die zijn ontworpen om aan al uw behoeften te

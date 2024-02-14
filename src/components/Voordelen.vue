@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-20">
+  <section id="voordelenColor" class="pb-20">
     <div class="grid grid-cols-1 flex items-center sm:grid-cols-2 px-8 sm:px-0">
       <div class="flex-col">
         <h1 class="text-4xl text-left"><strong class="text-[#D6FF01]">Voordelen </strong>van Visionary Partners: Maak
