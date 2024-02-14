@@ -40,10 +40,10 @@
           </span>
             <p class="ml-3 font-medium text-black truncate">
             <span class="hidden md:inline">
-              We use cookies to improve your experience. By continuing, you agree to our use of cookies.
+              Wij gebruiken cookies om uw ervaring te verbeteren. Door verder te gaan, gaat u akkoord met ons gebruik van cookies.
             </span>
               <span class="md:hidden">
-              We use cookies.
+              Wij gebruiken cookies.
             </span>
             </p>
           </div>
