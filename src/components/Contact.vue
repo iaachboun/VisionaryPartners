@@ -22,7 +22,7 @@
                    class="peer-focus:font-medium absolute text-xl text-white duration-300 transform -translate-y-8 scale-90 top-2 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-90 peer-focus:-translate-y-8">Email</label>
           </div>
           <div class="relative z-0 w-full mb-6 group text-left">
-            <label for="message" class="block mb-2 text-2xl font-medium text-gray-900 dark:text-white">Je bericht</label>
+            <label for="message" class="block mb-2 text-2xl font-medium text-white">Je bericht</label>
             <textarea id="message" rows="4" v-model="message"
                       class="block p-2.5 w-full text-xl text-white bg-transparent rounded-lg border border-white focus:ring-white focus:border-white dark:bg-transparant dark:border-white dark:placeholder-white dark:text-white dark:focus:ring-white dark:focus:border-white"
                       placeholder="Laat een bericht achter" required></textarea>
