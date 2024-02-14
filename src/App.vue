@@ -16,14 +16,17 @@
     <Footer/>
   </div>
 
-  <router-link to="#header">
-    <div
-        class="rounded-full fixed right-5 bottom-5 bg-[#D6FF01] hover:bg-[#bfe308] transition duration-500 ease-in-out text-black shadow-2xl">
-      <div class="h-full text-4xl w-16 py-3 hover-bounce transform transition-transform duration-500 ease-in-out">
-        <i class="fa-solid fa-arrow-up"></i>
+  <transition>
+    <router-link to="#header" v-show="showGoToTopButton">
+      <div
+          class="rounded-full fixed right-5 bottom-5 bg-[#D6FF01] hover:bg-[#bfe308] transition duration-500 ease-in-out text-black shadow-2xl">
+        <div class="h-full text-4xl w-16 py-3 hover-bounce transform transition-transform duration-500 ease-in-out">
+          <i class="fa-solid fa-arrow-up"></i>
+        </div>
       </div>
-    </div>
-  </router-link>
+    </router-link>
+  </transition>
+
 
   <div v-if="showBanner" class="fixed inset-x-0 bottom-0 pb-2 sm:pb-5 shadow-lg">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -78,6 +81,8 @@ export default {
   data() {
     return {
       showBanner: true, // Show banner by default
+      showGoToTopButton: false, // Add this line
+
     };
   },
   methods: {
@@ -87,7 +92,9 @@ export default {
     },
     handleScroll() {
       // Check if the scroll position is at the top of the page
-      this.isTop = window.scrollY < 20; // Adjust the value as needed
+      // this.isTop = window.scrollY < 20; // Adjust the value as needed
+      this.showGoToTopButton = window.scrollY > 0;
+
     }
   },
   created() {
@@ -149,5 +156,15 @@ body {
   animation: bounce 1.0s ease-in-out infinite;
 }
 
+/* we will explain what these classes do next! */
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.7s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
 
 </style>
