@@ -17,12 +17,48 @@
   </div>
 
   <router-link to="#header">
-    <div class="rounded-full fixed right-5 bottom-5 bg-[#D6FF01] hover:bg-[#bfe308] transition duration-500 ease-in-out text-black shadow-2xl">
+    <div
+        class="rounded-full fixed right-5 bottom-5 bg-[#D6FF01] hover:bg-[#bfe308] transition duration-500 ease-in-out text-black shadow-2xl">
       <div class="h-full text-4xl w-16 py-3 hover-bounce transform transition-transform duration-500 ease-in-out">
         <i class="fa-solid fa-arrow-up"></i>
       </div>
     </div>
   </router-link>
+
+  <div v-if="showBanner" class="fixed inset-x-0 bottom-0 pb-2 sm:pb-5 shadow-lg">
+    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="p-2 rounded-lg bg-white shadow-md sm:p-3">
+        <div class="flex items-center justify-between flex-wrap">
+          <div class="w-0 flex-1 flex items-center">
+          <span class="flex p-2 rounded-lg bg-[#D6FF01]">
+            <!-- Heroicon name: outline/information-circle -->
+            <svg class="h-6 w-6 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                 stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </span>
+            <p class="ml-3 font-medium text-black truncate">
+            <span class="hidden md:inline">
+              We use cookies to improve your experience. By continuing, you agree to our use of cookies.
+            </span>
+              <span class="md:hidden">
+              We use cookies.
+            </span>
+            </p>
+          </div>
+          <div class="flex-shrink-0 sm:ml-6">
+            <button @click="acceptCookies"
+                    class="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium bg-[#D6FF01] text-black hover:bg-[#bfe308]-50">
+              Accept
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </template>
 
 <script setup>
@@ -39,6 +75,27 @@ import Footer from "@/components/Footer";
 
 export default {
   name: 'App',
+  data() {
+    return {
+      showBanner: true, // Show banner by default
+    };
+  },
+  methods: {
+    acceptCookies() {
+      this.showBanner = false; // Hide banner
+      localStorage.setItem('cookieConsent', 'true'); // Store consent
+    },
+    handleScroll() {
+      // Check if the scroll position is at the top of the page
+      this.isTop = window.scrollY < 20; // Adjust the value as needed
+    }
+  },
+  created() {
+    // Check if consent has already been given
+    if (localStorage.getItem('cookieConsent') === 'true') {
+      this.showBanner = false;
+    }
+  },
   mounted() {
     this.handleScroll(); // Call it on mount to set the initial state based on current scroll
     window.addEventListener('scroll', this.handleScroll);
@@ -46,12 +103,6 @@ export default {
   beforeUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
   },
-  methods: {
-    handleScroll() {
-      // Check if the scroll position is at the top of the page
-      this.isTop = window.scrollY < 20; // Adjust the value as needed
-    }
-  }
 }
 </script>
 

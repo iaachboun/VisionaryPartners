@@ -1,6 +1,7 @@
 <template>
+  <section class="pb-20">
   <div
-      class="container mx-auto lg:grid grid-cols-1 flex items-center sm:grid-cols-2 bg-gradient-to-r from-[#3ACD22] to-[#D6FF01] mt-28 mb-40 sm:mb-80 sm:rounded-xl">
+      class="container mx-auto lg:grid grid-cols-1 flex items-center sm:grid-cols-2 bg-gradient-to-r from-[#3ACD22] to-[#D6FF01] mt-28 mb-40 sm:rounded-xl">
     <div class="lg:w-3/4 m-10">
       <div class="m-auto">
         <h1 class="text-5xl sm:text-5xl  text-left text-black mt-3 font-bold !leading-relaxed"><strong>Klaar
@@ -17,6 +18,10 @@
         </router-link>
     </div>
   </div>
+
+  <section id="contact" class="pb-10" />
+
+  </section>
 </template>
 
 <script>

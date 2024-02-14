@@ -1,5 +1,5 @@
 <template>
-  <section id="waarom" class="py-20">
+  <section class="pb-20 pt-10">
     <div class="grid grid-cols-1 flex items-center sm:grid-cols-2 px-8 sm:px-0">
       <div class="flex-col">
         <h1 class="text-4xl text-left"><strong class="text-[#D6FF01]">Waarom </strong>kiezen voor visionary partners?
@@ -12,6 +12,7 @@
         <img src="@/assets/img/pexels-lukas-5740711.png" class="ml-auto w-[600px]">
       </div>
     </div>
+    <section id="pakketten" />
   </section>
 </template>
 

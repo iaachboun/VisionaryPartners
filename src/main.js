@@ -13,6 +13,7 @@ import VueScrollactive from 'vue-scrollactive';
 
 const router = createRouter({
     history: createWebHistory(),
+    mode: 'history', // Use history mode to avoid hash in URL
     routes: [
         {
             path: '/Home',
