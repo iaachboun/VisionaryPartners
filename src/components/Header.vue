@@ -62,7 +62,7 @@ export default {
   computed: {
     navClasses() {
       return {
-        'sticky top-0 z-50 shadow transition-colors duration-300 ease-in-out': true,
+        'sticky top-0 z-50 transition-colors duration-300 ease-in-out': true,
         'bg-transparent': this.isTop,
         'bg-black bg-opacity-95': !this.isTop,
       };
