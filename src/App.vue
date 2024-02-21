@@ -6,6 +6,7 @@
       <Waarom class=""/>
       <Pakketten class="min-h-screen"/>
       <Voordelen class="min-h-screen"/>
+      <Projects/>
     </div>
   </div>
 
@@ -73,6 +74,7 @@ import Voordelen from "@/components/Voordelen";
 import VolgendeStap from "@/components/VolgendeStap";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Projects from "@/components/Projects";
 </script>
 <script>
 
