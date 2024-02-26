@@ -32,7 +32,7 @@
         </div>
         <div class="text-left grid grid-cols-12 p-8 sm:p-0 mb-5 sm:ml-10 mx-auto sm:mx-0">
           <div class="float-left text-4xl col-span-2">
-            04
+            02
           </div>
           <div class="col-span-10 lg:w-[425px]">
             <h3 class="text-4xl mb-2">Maatwerk</h3>
@@ -47,7 +47,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2">
         <div class="text-left grid grid-cols-12 p-8 sm:p-0 mb-5 mx-auto  sm:mx-0">
           <div class="float-left text-4xl col-span-2">
-            02
+            03
           </div>
           <div class="col-span-10 lg:w-[425px]">
             <h3 class="text-4xl mb-2">SEO optimalisatie</h3>
@@ -59,7 +59,7 @@
         </div>
         <div class="text-left grid grid-cols-12 p-8 sm:p-0 mb-5 sm:ml-10 mx-auto sm:mx-0">
           <div class="float-left text-4xl col-span-2">
-            05
+            04
           </div>
           <div class="col-span-10 lg:w-[425px]">
             <h3 class="text-4xl mb-2">Gezamenlijke ideeën</h3>
@@ -73,7 +73,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2">
         <div class="text-left grid grid-cols-12 p-8 sm:p-0 mb-5 mx-auto sm:mx-0">
           <div class="float-left text-4xl col-span-2">
-            03
+            05
           </div>
           <div class="col-span-10 lg:w-[425px]">
             <h3 class="text-4xl mb-2">Website onderhoud</h3>
