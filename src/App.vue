@@ -6,10 +6,10 @@
       <Waarom class=""/>
       <Pakketten class="min-h-screen"/>
       <Voordelen class="min-h-screen"/>
-      <Projects/>
     </div>
   </div>
 
+<!--  <Projects/>-->
 
   <div class="bottom-background">
     <VolgendeStap/>
@@ -21,7 +21,7 @@
     <router-link to="#header" v-show="showGoToTopButton">
       <div
           class="rounded-full fixed right-5 bottom-5 bg-[#D6FF01] hover:bg-[#bfe308] transition duration-500 ease-in-out text-black shadow-2xl">
-        <div class="h-full text-4xl w-16 py-3 hover-bounce transform transition-transform duration-500 ease-in-out">
+        <div class="h-full text-4xl w-16 py-3 hover-bounce transform transition-transform duration-500 ease-in-out text-center">
           <i class="fa-solid fa-arrow-up"></i>
         </div>
       </div>
@@ -74,7 +74,7 @@ import Voordelen from "@/components/Voordelen";
 import VolgendeStap from "@/components/VolgendeStap";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import Projects from "@/components/Projects";
+// import Projects from "@/components/Projects";
 </script>
 <script>
 
@@ -124,7 +124,6 @@ body {
   font-family: 'Poppins', Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   margin: 0;
 
 }
@@ -158,6 +157,9 @@ body {
   animation: bounce 1.0s ease-in-out infinite;
 }
 
+.circle2 {
+  background-image: url("/src/assets/img/circle2.svg");
+}
 /* we will explain what these classes do next! */
 .v-enter-active,
 .v-leave-active {
@@ -169,4 +171,8 @@ body {
   opacity: 0;
 }
 
+.circle3 {
+  background-image: url("/src/assets/img/circle3.svg");
+
+}
 </style>

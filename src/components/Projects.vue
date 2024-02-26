@@ -1,53 +1,114 @@
 <template>
-
-  <div class="container my-24 mx-auto md:px-6">
-    <section class="mb-32">
-
-      <h1 class="mb-8 text-4xl text-left"><strong class="text-[#D6FF01]">Ons </strong>werk</h1>
-
-
-        <div class="grid gap-6 lg:grid-cols-3">
-        <div v-for="(project, i) in projects" :key="i">
-          <div
-              class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]"
-              data-te-ripple-init data-te-ripple-color="dark" @click="openModal(project)">
-            <img :src="project.image"
-                 class="w-full align-middle transition duration-300 ease-linear"/>
-            <a href="#!">
-              <div
-                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
-                <div class="flex h-full items-end justify-start">
-                  <h5 class="m-6 text-lg font-bold text-white">
-                    {{ project.title }}
-                  </h5>
-                </div>
-              </div>
-              <div>
-                <div
-                    class="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]">
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-
-
-    </section>
+  <div class="sm:w-5/6 m-auto">
+    <h1 class="text-4xl text-left my-6"><strong class="text-[#D6FF01]">Onze </strong>projecten</h1>
   </div>
 
-  <FlowbiteModal :project="selectedProject" v-if="isModalOpen" @close="closeModal"/>
+  <div class="middle-background circle2 bg-no-repeat bg-right min-h-[640px]">
+    <div class="sm:w-5/6 m-auto">
+      <section id="projectenColor" class="pb-20 pt-10">
+        <div class=" gap-16 items-center lg:grid lg:grid-cols-12">
+          <div class="col-span-6 font-light text-white sm:text-lg py-8 bg-[#1da1f2]">
+            <div class="pr-6">
+              <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-white">Google<strong class="text-[#D6FF01]">.nl</strong></h2>
+              <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple
+                and
+                quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and
+                quick,
+                but big enough to deliver the scope you want at the pace you need.</p>
+              <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple
+                and
+                quick.</p>
+            </div>
+          </div>
+          <div class="col-span-6">
+            <img class="rounded-lg shadow" src="../assets/img/google.png">
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="middle-background circle3 bg-no-repeat bg-left min-h-[640px]">
+    <div class="sm:w-5/6 m-auto">
+      <section id="projects" class="pb-20 pt-10">
+        <div class=" gap-16 items-center lg:grid lg:grid-cols-12">
+          <div class="col-span-6">
+            <img class="rounded-lg shadow" src="../assets/img/webflow.png">
+          </div>
+          <div class="col-span-6 font-light text-gray-500 sm:text-lg dark:text-gray-400 py-8">
+            <div class="pr-6">
+              <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">Webflow<strong class="text-[#D6FF01]">.nl</strong></h2>
+              <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple
+                and
+                quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and
+                quick,
+                but big enough to deliver the scope you want at the pace you need.</p>
+              <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple
+                and
+                quick.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="middle-background circle2 bg-no-repeat bg-right min-h-[640px]">
+    <div class="sm:w-5/6 m-auto">
+      <section id="projects" class="pb-20 pt-10">
+        <div class="gap-16 items-center lg:grid lg:grid-cols-12">
+          <div class="col-span-6 font-light text-gray-500 sm:text-lg dark:text-gray-400 py-8">
+            <div class="pr-6">
+              <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">Website<strong class="text-[#D6FF01]">.nl</strong></h2>
+              <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple
+                and
+                quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and
+                quick,
+                but big enough to deliver the scope you want at the pace you need.</p>
+              <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple
+                and
+                quick.</p>
+            </div>
+          </div>
+          <div class="col-span-6">
+            <img class="rounded-lg shadow" src="https://via.placeholder.com/600x350">
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="middle-background circle3 bg-no-repeat bg-left min-h-[640px]">
+    <div class="sm:w-5/6 m-auto">
+      <section id="projects" class="pb-20 pt-10">
+        <div class=" gap-16 items-center lg:grid lg:grid-cols-12">
+          <div class="col-span-6">
+            <img class="rounded-lg shadow" src="https://via.placeholder.com/600x350">
+          </div>
+          <div class="col-span-6 font-light text-gray-500 sm:text-lg dark:text-gray-400 py-8">
+            <div class="pr-6">
+              <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">Website.nl</h2>
+              <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple
+                and
+                quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and
+                quick,
+                but big enough to deliver the scope you want at the pace you need.</p>
+              <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple
+                and
+                quick.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
 
 </template>
 
 <script>
-import FlowbiteModal from '@/components/ProjectModal.vue'; // Adjust the path as per your project structure
 
 export default {
   name: "Projects",
-  components: {
-    FlowbiteModal
-  },
 
   data() {
     return {
@@ -97,15 +158,6 @@ export default {
       }
     };
   },
-  methods: {
-    openModal(project) {
-      this.selectedProject = project;
-      this.isModalOpen = true;
-    },
-    closeModal() {
-      this.isModalOpen = false;
-    }
-  }
 }
 </script>
 
@@ -113,4 +165,6 @@ export default {
 .zoom:hover img {
   transform: scale(1.1);
 }
+
+
 </style>

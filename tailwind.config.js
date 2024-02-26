@@ -11,6 +11,9 @@ module.exports = {
             scrollBehavior: ['smooth'],
             maxWidth: {
                 'pakket-w': '265px',
+            },
+            backgroundImage: {
+                'circle2': "url('/src/assets/img/circle2.svg')",
             }
         }
     }

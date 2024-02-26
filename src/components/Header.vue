@@ -25,7 +25,6 @@
             </router-link>
           </li>
           <li>
-
             <router-link to="#pakketten"
                          class="nav-link mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer" :class="{ active: currentActiveSection === 'pakkettenColor' }">
               Onze pakketten
@@ -37,6 +36,12 @@
               Diensten
             </router-link>
           </li>
+<!--          <li>
+            <router-link to="#projeten"
+                         class="nav-link mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer" :class="{ active: currentActiveSection === 'projectenColor' }">
+              Projecten
+            </router-link>
+          </li>-->
           <li>
             <router-link to="#contact"
                          class="nav-link mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer" :class="{ active: currentActiveSection === 'contactColor' }">

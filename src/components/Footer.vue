@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-8">
+  <div class="pb-8 text-center">
     <p>COPYRIGHT ©{{ currentYear }} VISIONARYPARTNERS </p>
   </div>
 </template>
