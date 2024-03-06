@@ -8,7 +8,7 @@
           aanwezigheid naar een hoger niveau tillen. Ontdek hoe onze expertise en diensten jou kunnen helpen:</p>
       </div>
       <div class="flex">
-        <img src="@/assets/img/pexels-fauxels-31844181.png" class="ml-auto w-[600px]">
+        <img src="@/assets/img/pexels-fauxels-31844181.png" class="rounded-lg shadow ml-auto w-[600px]">
       </div>
     </div>
 

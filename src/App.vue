@@ -9,7 +9,7 @@
     </div>
   </div>
 
-<!--  <Projects/>-->
+  <Projects/>
 
   <div class="bottom-background">
     <VolgendeStap/>
@@ -74,7 +74,7 @@ import Voordelen from "@/components/Voordelen";
 import VolgendeStap from "@/components/VolgendeStap";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-// import Projects from "@/components/Projects";
+import Projects from "@/components/Projects";
 </script>
 <script>
 
