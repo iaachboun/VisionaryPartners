@@ -3,7 +3,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2">
         <div class="text-left grid grid-cols-12 p-8 sm:p-0 mb-5 mx-auto sm:mx-0">
           <div class="float-left text-4xl col-span-2">
-            01
+            <strong class="text-[#D6FF01]">01</strong>
           </div>
           <div class="col-span-10 lg:w-[425px]">
             <h3 class="text-4xl mb-2">CMS systeem</h3>
@@ -19,7 +19,7 @@
         </div>
         <div class="text-left grid grid-cols-12 p-8 sm:p-0 mb-5 sm:ml-10 mx-auto sm:mx-0">
           <div class="float-left text-4xl col-span-2">
-            03
+            <strong class="text-[#D6FF01]">03</strong>
           </div>
           <div class="col-span-10 lg:w-[425px]">
             <h3 class="text-4xl mb-2">Maatwerk</h3>
@@ -34,7 +34,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2">
         <div class="text-left grid grid-cols-12 p-8 sm:p-0 mb-5 mx-auto  sm:mx-0">
           <div class="float-left text-4xl col-span-2">
-            05
+            <strong class="text-[#D6FF01]">05</strong>
           </div>
           <div class="col-span-10 lg:w-[425px]">
             <h3 class="text-4xl mb-2">SEO optimalisatie</h3>
@@ -46,7 +46,7 @@
         </div>
         <div class="text-left grid grid-cols-12 p-8 sm:p-0 mb-5 sm:ml-10 mx-auto sm:mx-0">
           <div class="float-left text-4xl col-span-2">
-            02
+            <strong class="text-[#D6FF01]">02</strong>
           </div>
           <div class="col-span-10 lg:w-[425px]">
             <h3 class="text-4xl mb-2">Gezamenlijke ideeën</h3>
@@ -60,7 +60,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2">
         <div class="text-left grid grid-cols-12 p-8 sm:p-0 mb-5 mx-auto sm:mx-0">
           <div class="float-left text-4xl col-span-2">
-            04
+            <strong class="text-[#D6FF01]">04</strong>
           </div>
           <div class="col-span-10 lg:w-[425px]">
             <h3 class="text-4xl mb-2">Website onderhoud</h3>
@@ -73,7 +73,7 @@
         </div>
         <div class="text-left grid grid-cols-12 p-8 sm:p-0 mb-5 sm:ml-10 mx-auto sm:mx-0">
           <div class="float-left text-4xl col-span-2">
-            06
+            <strong class="text-[#D6FF01]">06</strong>
           </div>
           <div class="col-span-10 lg:w-[425px]">
             <h3 class="text-4xl mb-2">Punctuele Oplevering</h3>
