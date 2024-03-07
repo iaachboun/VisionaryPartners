@@ -1,8 +1,9 @@
 <template>
-  <div class="projects-section">
+  <div id="projecten" class="projects-section">
     <div class="sm:w-5/6 m-auto px-8 md:p-0">
       <h1 class="text-4xl text-left my-6"><strong class="text-[#D6FF01]">Onze </strong>projecten</h1>
     </div>
+
     <div class="middle-background circle3 bg-no-repeat bg-left min-h-[640px] px-8 md:p-0">
       <div class="sm:w-5/6 m-auto">
         <section id="projectenColor" class="pb-20 pt-10">

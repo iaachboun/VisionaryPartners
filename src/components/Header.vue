@@ -9,7 +9,8 @@
       <div data-collapse-toggle="navbar-default"
            class="inline-flex items-center px-1 w-10 h-10 justify-center text-sm text-Z rounded-lg md:hidden text-white focus:text-[#D6FF01]"
            aria-controls="navbar-default" aria-expanded="false" id="app">
-        <div class="menu-wrapper" @click="openMenu = !openMenu" :class="{ active: openMenu }">
+<!--        <div class="menu-wrapper" @click="openMenu = !openMenu" :class="{ active: openMenu }">-->
+        <div class="menu-wrapper">
           <div class="menu-bar one"></div>
           <div class="menu-bar two"></div>
           <div class="menu-bar three"></div>
@@ -36,12 +37,12 @@
               Diensten
             </router-link>
           </li>
-<!--          <li>
-            <router-link to="#projeten"
+          <li>
+            <router-link to="#projecten"
                          class="nav-link mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer" :class="{ active: currentActiveSection === 'projectenColor' }">
               Projecten
             </router-link>
-          </li>-->
+          </li>
           <li>
             <router-link to="#contact"
                          class="nav-link mt-3 md:mt-0 block py-2 pl-3 pr-4 text-white hover:text-[#D6FF01] md:p-0 cursor-pointer" :class="{ active: currentActiveSection === 'contactColor' }">
