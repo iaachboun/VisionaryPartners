@@ -6,11 +6,10 @@
         <span class="self-center sm:text-2xl  whitespace-nowrap text-[#D6FF01] font-bold">VISIONARY PARTNERS</span>
       </a>
 
-      <div data-collapse-toggle="navbar-default"
-           class="inline-flex items-center px-1 w-10 h-10 justify-center text-sm text-Z rounded-lg md:hidden text-white focus:text-[#D6FF01]"
+      <div class="inline-flex items-center px-1 w-10 h-10 justify-center text-sm text-Z rounded-lg md:hidden text-white focus:text-[#D6FF01]"
            aria-controls="navbar-default" aria-expanded="false" id="app">
-<!--        <div class="menu-wrapper" @click="openMenu = !openMenu" :class="{ active: openMenu }">-->
-        <div class="menu-wrapper">
+        <div aria-controls="navbar-default" aria-expanded="false" id="app" data-collapse-toggle="navbar-default" class="menu-wrapper" @click="openMenu = !openMenu" :class="{ active: openMenu }">
+<!--        <div class="menu-wrapper">-->
           <div class="menu-bar one"></div>
           <div class="menu-bar two"></div>
           <div class="menu-bar three"></div>
