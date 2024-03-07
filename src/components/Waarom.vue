@@ -6,7 +6,7 @@
         </h1>
         <p class="text-xl text-left mt-8 mb-8">Wij hebben gespecialiseerde programmeurs die zich verdiept hebben in het
           sneller
-          maken van de website. Hierdoor scoort uw website ook beter in de zoekmachines.</p>
+          maken van de website. Hierdoor scoort jouw website ook beter in de zoekmachines.</p>
       </div>
       <div class="flex">
         <img src="@/assets/img/pexels-lukas-5740711.png" class="rounded-lg shadow ml-auto w-[600px]">

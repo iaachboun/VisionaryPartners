@@ -7,7 +7,7 @@
         <!--      </h2>-->
         <h2 class=" lg:-mt-40 text-6xl sm:text-7xl text-left leading-tight sm:leading-normal font-bold min-h-[350px] typed-header">
           <VueTyped
-              :strings="['test', 'Super snel jouw website of app online!']"
+              :strings="['test', 'Supersnel jouw website of app online!']"
               :typeSpeed="25"
               :backSpeed="120"
               :loop="true"
@@ -18,10 +18,10 @@
             <span v-typed-js></span>
           </VueTyped>
         </h2>
-        <p class="text-lg sm:text-xl text-left mt-8">Met ons hoog opgeleid team staat uw website of app binnen 2 weken
+        <p class="text-lg sm:text-xl text-left mt-8">Met ons hoog opgeleid team staat jouw website of app binnen 2 weken
           online. Ons
           team bestaat
-          uit HBO-programmeurs met minstens 8 jaar aan ervaring en kennis in hun vak gebied!</p>
+          uit programmeurs met minstens 8 jaar aan ervaring en kennis in hun vak gebied!</p>
         <router-link to="#contact"
                      class="custom-button w-fit bg-[#D6FF01] text-black py-3 px-5 rounded-full mt-5 font-bold flex items-center hover:bg-[#bfe308] transition duration-500 ease-in-out">
           <span>NEEM CONTACT OP</span>

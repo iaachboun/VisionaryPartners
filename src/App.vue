@@ -44,7 +44,7 @@
           </span>
             <p class="ml-3 font-medium text-black truncate">
             <span class="hidden md:inline">
-              Wij gebruiken cookies om uw ervaring te verbeteren. Door verder te gaan, gaat u akkoord met ons gebruik van cookies.
+              Wij gebruiken cookies om jouw ervaring te verbeteren. Door verder te gaan, gaat u akkoord met ons gebruik van cookies.
             </span>
               <span class="md:hidden">
               Wij gebruiken cookies.
