@@ -64,8 +64,8 @@
             </div>
             <div class="col-span-6 font-light sm:text-lg py-8">
               <div class="pr-6">
-                <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-white">E-commerce<strong
-                    class="text-[#D6FF01]"> websites</strong></h2>
+                <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-white"><strong
+                    class="text-[#D6FF01]">E-commerce</strong> websites</h2>
                 <p>Wij ontwikkelen professionele E-commerce webshops die perfect aansluiten bij de behoeften en
                   doelen van onze klanten. Met onze expertise zorgen we voor een naadloze online winkelervaring, waarbij
                   we streven naar <strong
