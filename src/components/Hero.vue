@@ -5,7 +5,7 @@
         <!--      <h2 class="text-5xl sm:text-7xl text-left leading-tight sm:leading-normal font-bold">-->
         <!--        Super Snel Jouw Website Of App <strong class="text-[#D6FF01]">Online!</strong>-->
         <!--      </h2>-->
-        <h2 class=" lg:-mt-40 text-6xl sm:text-7xl text-left leading-tight sm:leading-normal font-bold min-h-[350px] typed-header">
+        <h1 class=" lg:-mt-40 text-6xl sm:text-7xl text-left leading-tight sm:leading-normal font-bold min-h-[350px] typed-header">
           <VueTyped
               :strings="['test', 'Supersnel jouw website of app online!']"
               :typeSpeed="25"
@@ -17,7 +17,7 @@
             <!-- The element where the typed text will appear -->
             <span v-typed-js></span>
           </VueTyped>
-        </h2>
+        </h1>
         <p class="text-lg sm:text-xl text-left mt-8">Met ons hoog opgeleid team staat jouw website of app binnen 2 weken
           online. Ons
           team bestaat
