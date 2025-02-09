@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  visionary-partners:
+    build: .
+    container_name: visionary-partners
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.visionary.rule=Host(`test.visionarypartners.nl`)"
+      - "traefik.http.routers.visionary.entrypoints=websecure"
+      - "traefik.http.routers.visionary.tls.certresolver=myresolver"
+    networks:
+      - web
+
+networks:
+  web:
+    external: true
