@@ -10,6 +10,7 @@ services:
       - "traefik.http.routers.visionary.rule=Host(`test.visionarypartners.nl`)"
       - "traefik.http.routers.visionary.entrypoints=websecure"
       - "traefik.http.routers.visionary.tls.certresolver=myresolver"
+      - "traefik.http.services.visionary.loadbalancer.server.port=80"
     networks:
       - web
 
