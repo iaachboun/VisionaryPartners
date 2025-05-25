@@ -9,19 +9,24 @@
         <section id="projectenColor" class="pb-20 pt-10">
           <div class=" gap-16 items-center lg:grid lg:grid-cols-12">
             <div class="col-span-6">
-              <img class="rounded-lg shadow ml-auto w-[600px]" src="../assets/img/barberImage.png">
+              <img class="rounded-lg shadow ml-auto w-[600px]" src="@/assets/img/carcleaningdeadmiraal.png">
             </div>
             <div class="col-span-6 font-light text-white sm:text-lg py-8">
               <div class="pr-6">
                 <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-white"><strong
-                    class="text-[#D6FF01]">Kappers</strong> websites</h2>
-                <p>Bij Visionary Partners specialiseren wij ons ook in reserveringssystemen voor kapperszaken,<strong
+                    class="text-[#D6FF01]"> 01.</strong> Car Cleaing de Admiraal</h2>
+                <p><!--<strong
                     class="text-[#D6FF01]"> zonder extra
-                  commissies op elke klantreservering.</strong> Onze aanpak is gericht op het bieden van transparantie
-                  en
-                  eerlijkheid aan kappers, waarbij ze volledige controle hebben over hun boekingsproces zonder extra
-                  kosten. Met onze systemen streven we ernaar om kappers te ondersteunen bij het maximaliseren van hun
-                  winstpotentieel en het bieden van een naadloze ervaring aan hun klanten.</p>
+                  commissies op elke klantreservering.</strong>-->
+                  Voor Car Cleaning de Admiraal hebben we een volledig op maat gemaakte website gerealiseerd, zonder
+                  gebruik te maken van verouderde systemen zoals WordPress.</p><br>
+                <p> Alles is handmatig geprogrammeerd met
+                  moderne technologieën, wat zorgt voor optimale snelheid, veiligheid en prestaties. Dankzij een
+                  geavanceerde techniek laden pagina's razendsnel zonder onderbrekingen. Dit zorgt voor een soepele en
+                  directe gebruikerservaring.</p><br>
+                <p>De uitstraling van de site sluit perfect aan bij de professionele en
+                  exclusieve service die Car Cleaning de Admiraal biedt.</p><br>
+                <a href="https://www.carcleaningdeadmiraal.nl/home" class="text-[#D6FF01]" target="_blank">www.carcleaningdedmiraal.nl</a>
               </div>
             </div>
           </div>
@@ -36,19 +41,20 @@
             <div class="col-span-6 font-light sm:text-lg py-8">
               <div class="pr-6">
                 <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-white"><strong
-                    class="text-[#D6FF01]">Unieke </strong>websites</h2>
-                <p>Als VisionaryPartners hebben we een sterke expertise in het bouwen van <strong
-                    class="text-[#D6FF01]">op maat gemaakte websites</strong> die
-                  perfect passen bij de unieke behoeften en visie van onze klanten. Met onze diepgaande kennis en
-                  creatieve vaardigheden kunnen we websites ontwikkelen die niet alleen aantrekkelijk zijn, maar ook
-                  functioneel en gebruiksvriendelijk. <strong
-                      class="text-[#D6FF01]">We streven ernaar om elk detail af te stemmen op de wensen van onze
-                    klanten</strong>, waardoor ze een online aanwezigheid hebben die echt uniek is en opvalt in hun
-                  branche.</p>
+                    class="text-[#D6FF01]">02.</strong> Flamingo Wonen</h2>
+                <p>Voor Flamingo Wonen ontwikkelden wij een stijlvolle en functionele webshop die volledig aansluit op
+                  de identiteit van het merk. </p><br>
+                <p>De website is tot in detail afgestemd op de wensen van de klant en straalt
+                  professionaliteit uit. De combinatie van design en gebruiksgemak zorgt ervoor dat bezoekers snel en
+                  eenvoudig door het assortiment kunnen navigeren. </p><br>
+                <p>We streven ernaar om elk detail af te stemmen op de
+                  wensen van onze klanten, zodat hun online aanwezigheid echt uniek is en opvalt in de markt.</p><br>
+                <a href="https://flamingowonen.nl" class="text-[#D6FF01]" target="_blank">www.flamingowonen.nl</a>
+
               </div>
             </div>
             <div class="col-span-6">
-              <img class="rounded-lg shadow" src="../assets/img/cleanImage.png">
+              <img class="rounded-lg shadow" src="@/assets/img/flamingowonen.png">
             </div>
           </div>
         </section>
@@ -60,20 +66,20 @@
         <section id="projects" class="pb-20 pt-10">
           <div class="gap-16 items-center lg:grid lg:grid-cols-12">
             <div class="col-span-6">
-              <img class="rounded-lg shadow" src="../assets/img/webshopImage.png">
+              <img class="rounded-lg shadow" src="@/assets/img/vitanovacare.png">
             </div>
             <div class="col-span-6 font-light sm:text-lg py-8">
               <div class="pr-6">
                 <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-white"><strong
-                    class="text-[#D6FF01]">E-commerce</strong> websites</h2>
-                <p>Wij ontwikkelen professionele E-commerce webshops die perfect aansluiten bij de behoeften en
-                  doelen van onze klanten. Met onze expertise zorgen we voor een naadloze online winkelervaring, waarbij
-                  we streven naar <strong
-                      class="text-[#D6FF01]">een gebruiksvriendelijk ontwerp en een professionele uitstraling.</strong>
-                  Wij streven ernaar om met onze websites de mogelijkheid te bieden producten met een veel
-                  groter bereik te verkopen, inclusief internationale markten. Dit voor zodat jouw bedrijf wereldwijd
-                  kan groeien!
+                    class="text-[#D6FF01]">03.</strong> Vita Nova Care</h2>
+                <p>Vita Nova Care is een organisatie die zich richt op ambulante begeleiding. Voor deze klant ontwikkelden wij een
+                  maatwerk website die hun zorgvisie helder en professioneel uitdraagt.</p><br><p> Dankzij de overzichtelijke
+                  structuur en rustige uitstraling vinden bezoekers eenvoudig de juiste informatie.
+                  De inhoud en opbouw zijn afgestemd op de behoeften van hun doelgroep, met speciale aandacht voor
+                  toegankelijkheid en vertrouwen.
                 </p>
+                <br>
+                <a href="https://vitanovacare.nl/" class="text-[#D6FF01]" target="_blank">www.vitanovacare.nl</a>
               </div>
             </div>
           </div>
